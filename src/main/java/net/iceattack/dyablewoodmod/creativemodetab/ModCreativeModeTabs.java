@@ -11,10 +11,10 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 public class ModCreativeModeTabs {
-    public static final CreativeModeTab FROZENITE_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
-            Identifier.fromNamespaceAndPath(DyableWoodMod.MOD_ID, "frozenite_items"),
+    public static final CreativeModeTab DYE_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
+            Identifier.fromNamespaceAndPath(DyableWoodMod.MOD_ID, "dye_items"),
             FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FROZENITE))
-                    .title(Component.translatable("creativemodetab.dyablewoodmod.frozenite_items"))
+                    .title(Component.translatable("creativemodetab.dyablewoodmod.dye_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.FROZENITE);
                         output.accept(ModItems.DULL_FROZENITE);
