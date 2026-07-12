@@ -13,11 +13,12 @@ import net.minecraft.world.item.ItemStack;
 public class ModCreativeModeTabs {
     public static final CreativeModeTab DYE_ITEM_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(DyableWoodMod.MOD_ID, "dye_items"),
-            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FROZENITE))
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LIGHT_PURPLE_DYE))
                     .title(Component.translatable("creativemodetab.dyablewoodmod.dye_items"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.FROZENITE);
                         output.accept(ModItems.DULL_FROZENITE);
+                        output.accept(ModItems.LIGHT_PURPLE_DYE);
 
 
                     }).build());
