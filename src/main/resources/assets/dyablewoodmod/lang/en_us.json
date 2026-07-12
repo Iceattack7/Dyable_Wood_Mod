@@ -1,6 +1,11 @@
 {
   "item.dyablewoodmod.frozenite": "Frozenite",
-  "item.dyablewoodmod.dull_frozenite": "Dull Frozenite"
+  "item.dyablewoodmod.dull_frozenite": "Dull Frozenite",
+
+
+
+  "creativemodetab.dyablewoodmod.frozenite_items": "Frozenite Items",
+  "creativemodetab.dyablewoodmod.dyable_blocks": "Dyable Blocks"
 
 
 }

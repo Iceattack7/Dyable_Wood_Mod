@@ -2,6 +2,7 @@ package net.iceattack.dyablewoodmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.iceattack.dyablewoodmod.creativemodetab.ModCreativeModeTabs;
 import net.iceattack.dyablewoodmod.item.ModItems;
 import net.minecraft.resources.Identifier;
 
@@ -14,7 +15,10 @@ public class DyableWoodMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModCreativeModeTabs.registerModCreativeModeTabs();
+
 		ModItems.registerModItems();
+
 	}
 
 	public static Identifier id(String path) {
