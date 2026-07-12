@@ -2,6 +2,7 @@ package net.iceattack.dyablewoodmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.iceattack.dyablewoodmod.item.ModItems;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
@@ -13,7 +14,7 @@ public class DyableWoodMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 
 	public static Identifier id(String path) {
