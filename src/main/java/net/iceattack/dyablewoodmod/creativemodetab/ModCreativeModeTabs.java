@@ -31,6 +31,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLACK_PLANKS);
                         output.accept(ModBlocks.BROWN_PLANKS);
                         output.accept(ModBlocks.CYAN_PLANKS);
+                        output.accept(ModBlocks.GRAY_PLANKS);
+                        output.accept(ModBlocks.GREEN_PLANKS);
+                        output.accept(ModBlocks.LIGHT_BLUE_PLANKS);
+                        output.accept(ModBlocks.LIGHT_GRAY_PLANKS);
+                        output.accept(ModBlocks.LIGHT_PURPLE_PLANKS);
 
 
                     }).build());

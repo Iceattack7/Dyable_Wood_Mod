@@ -16,16 +16,31 @@ import java.util.function.Function;
 
 public class ModBlocks {
     public static final Block BLUE_PLANKS = registerBlock("blue_planks",
-            properties -> new Block(properties.strength(4f)
+            properties -> new Block(properties.strength(0.6f)
                     .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
     public static final Block BLACK_PLANKS = registerBlock("black_planks",
-            properties -> new Block(properties.strength(4f)
+            properties -> new Block(properties.strength(0.6f)
                     .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
     public static final Block BROWN_PLANKS = registerBlock("brown_planks",
-            properties -> new Block(properties.strength(4f)
+            properties -> new Block(properties.strength(0.6f)
                     .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
     public static final Block CYAN_PLANKS = registerBlock("cyan_planks",
-            properties -> new Block(properties.strength(4f)
+            properties -> new Block(properties.strength(0.6f)
+                    .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final Block GRAY_PLANKS = registerBlock("gray_planks",
+            properties -> new Block(properties.strength(0.6f)
+                    .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final Block GREEN_PLANKS = registerBlock("green_planks",
+            properties -> new Block(properties.strength(0.6f)
+                    .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final Block LIGHT_BLUE_PLANKS = registerBlock("light_blue_planks",
+            properties -> new Block(properties.strength(0.6f)
+                    .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final Block LIGHT_GRAY_PLANKS = registerBlock("light_gray_planks",
+            properties -> new Block(properties.strength(0.6f)
+                    .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
+    public static final Block LIGHT_PURPLE_PLANKS = registerBlock("light_purple_planks",
+            properties -> new Block(properties.strength(0.6f)
                     .requiresCorrectToolForDrops().sound(SoundType.WOOD)));
 
 

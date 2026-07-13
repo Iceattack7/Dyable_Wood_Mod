@@ -19,6 +19,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.BLACK_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.BROWN_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.CYAN_PLANKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.GRAY_PLANKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.GREEN_PLANKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.LIGHT_BLUE_PLANKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.LIGHT_GRAY_PLANKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.LIGHT_PURPLE_PLANKS);
 
     }
 
