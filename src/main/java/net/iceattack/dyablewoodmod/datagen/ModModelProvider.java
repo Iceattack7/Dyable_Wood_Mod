@@ -2,6 +2,7 @@ package net.iceattack.dyablewoodmod.datagen;
 
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
+import net.iceattack.dyablewoodmod.block.ModBlocks;
 import net.iceattack.dyablewoodmod.item.ModItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
@@ -14,6 +15,10 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
+        blockModelGenerators.createTrivialCube(ModBlocks.BLUE_PLANKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.BLACK_PLANKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.BROWN_PLANKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.CYAN_PLANKS);
 
     }
 

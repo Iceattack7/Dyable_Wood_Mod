@@ -1,6 +1,11 @@
 {
   "item.dyablewoodmod.light_purple_dye": "Light Purple Dye",
 
+  "block.dyablewoodmod.blue_planks": "Blue Planks",
+  "block.dyablewoodmod.black_planks": "Black Planks",
+  "block.dyablewoodmod.brown_planks": "Brown Planks",
+  "block.dyablewoodmod.cyan_planks": "Cyan Planks",
+
 
 
   "creativemodetab.dyablewoodmod.dye_items": "Dye Items",

@@ -2,6 +2,7 @@ package net.iceattack.dyablewoodmod.creativemodetab;
 
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.iceattack.dyablewoodmod.DyableWoodMod;
+import net.iceattack.dyablewoodmod.block.ModBlocks;
 import net.iceattack.dyablewoodmod.item.ModItems;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -23,10 +24,13 @@ public class ModCreativeModeTabs {
 
     public static final CreativeModeTab DYABLE_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(DyableWoodMod.MOD_ID, "dyable_blocks"),
-            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LIGHT_PURPLE_DYE))
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BLUE_PLANKS))
                     .title(Component.translatable("creativemodetab.dyablewoodmod.dyable_blocks"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.LIGHT_PURPLE_DYE);
+                        output.accept(ModBlocks.BLUE_PLANKS);
+                        output.accept(ModBlocks.BLACK_PLANKS);
+                        output.accept(ModBlocks.BROWN_PLANKS);
+                        output.accept(ModBlocks.CYAN_PLANKS);
 
 
                     }).build());
