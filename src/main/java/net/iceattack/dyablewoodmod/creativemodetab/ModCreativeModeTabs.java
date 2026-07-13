@@ -16,8 +16,6 @@ public class ModCreativeModeTabs {
             FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LIGHT_PURPLE_DYE))
                     .title(Component.translatable("creativemodetab.dyablewoodmod.dye_items"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.FROZENITE);
-                        output.accept(ModItems.DULL_FROZENITE);
                         output.accept(ModItems.LIGHT_PURPLE_DYE);
 
 
@@ -25,10 +23,10 @@ public class ModCreativeModeTabs {
 
     public static final CreativeModeTab DYABLE_BLOCK_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(DyableWoodMod.MOD_ID, "dyable_blocks"),
-            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DULL_FROZENITE))
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LIGHT_PURPLE_DYE))
                     .title(Component.translatable("creativemodetab.dyablewoodmod.dyable_blocks"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.DULL_FROZENITE);
+                        output.accept(ModItems.LIGHT_PURPLE_DYE);
 
 
                     }).build());

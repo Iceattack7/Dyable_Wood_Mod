@@ -13,8 +13,6 @@ import net.minecraft.world.item.Item;
 import java.util.function.Function;
 
 public class ModItems {
-    public static final Item FROZENITE = registerItem( "frozenite", Item::new);
-    public static final Item DULL_FROZENITE = registerItem( "dull_frozenite", Item::new);
     public static final Item LIGHT_PURPLE_DYE = registerItem( "light_purple_dye", Item::new);
 
 
@@ -28,8 +26,6 @@ public class ModItems {
         DyableWoodMod.LOGGER.info("Registering Mod Items for " + DyableWoodMod.MOD_ID);
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
-            output.accept(FROZENITE);
-            output.accept(DULL_FROZENITE);
             output.accept(LIGHT_PURPLE_DYE);
         });
     }
