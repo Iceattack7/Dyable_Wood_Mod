@@ -43,6 +43,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
 
+                shapeless(RecipeCategory.MISC, ModBlocks.BROWN_PLANKS, 1)
+                        .requires(ConventionalItemTags.BROWN_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.CYAN_PLANKS, 1)
+                        .requires(ConventionalItemTags.CYAN_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.GRAY_PLANKS, 1)
+                        .requires(ConventionalItemTags.GRAY_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
 
             }
         };
