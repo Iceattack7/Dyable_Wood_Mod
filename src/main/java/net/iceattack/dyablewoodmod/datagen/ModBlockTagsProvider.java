@@ -34,6 +34,24 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.WHITE_PLANKS))
                 .add(ModBlocks.getRK(ModBlocks.YELLOW_PLANKS));
 
+        tag(BlockTags.PLANKS)
+                .add(ModBlocks.getRK(ModBlocks.BLACK_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.BLUE_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.BROWN_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.GRAY_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.GREEN_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.LIGHT_BLUE_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.LIGHT_GRAY_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.LIGHT_PURPLE_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.LIME_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.ORANGE_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.PINK_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.PURPLE_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.RED_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.WHITE_PLANKS))
+                .add(ModBlocks.getRK(ModBlocks.YELLOW_PLANKS));
 
 
     }

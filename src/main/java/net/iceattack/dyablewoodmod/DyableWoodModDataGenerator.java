@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.iceattack.dyablewoodmod.datagen.ModBlockLootTableProvider;
 import net.iceattack.dyablewoodmod.datagen.ModBlockTagsProvider;
 import net.iceattack.dyablewoodmod.datagen.ModModelProvider;
+import net.iceattack.dyablewoodmod.datagen.ModRecipeProvider;
 
 public class DyableWoodModDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +15,6 @@ public class DyableWoodModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModBlockTagsProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }
