@@ -79,6 +79,54 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
 
+                shapeless(RecipeCategory.MISC, ModBlocks.LIME_PLANKS, 1)
+                        .requires(ConventionalItemTags.LIME_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.MAGENTA_PLANKS, 1)
+                        .requires(ConventionalItemTags.MAGENTA_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.ORANGE_PLANKS, 1)
+                        .requires(ConventionalItemTags.ORANGE_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.PINK_PLANKS, 1)
+                        .requires(ConventionalItemTags.PINK_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.PURPLE_PLANKS, 1)
+                        .requires(ConventionalItemTags.PURPLE_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_PLANKS, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_PLANKS, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_PLANKS, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(ItemTags.PLANKS)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
             }
         };
     }
