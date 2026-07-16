@@ -99,6 +99,12 @@ public class ModBlocks {
     public static final Block GRAY_WOOD_SLAB = registerBlock("gray_wood_slab",
             properties -> new SlabBlock(properties.strength(2.0f, 3.0f)));
 
+    public static final Block GREEN_WOOD_STAIRS = registerBlock("green_wood_stairs",
+            properties -> new StairBlock(ModBlocks.GREEN_PLANKS.defaultBlockState(),
+                    properties.strength(2.0f, 3.0f)));
+    public static final Block GREEN_WOOD_SLAB = registerBlock("green_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)));
+
     public static ResourceKey<Block> getRK(Block block) {
 
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();
