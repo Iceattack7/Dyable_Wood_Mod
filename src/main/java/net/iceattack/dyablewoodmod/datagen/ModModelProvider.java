@@ -16,7 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
         // blockModelGenerators.createTrivialCube(ModBlocks.BLUE_PLANKS);
-        blockModelGenerators.createTrivialCube(ModBlocks.BLACK_PLANKS);
+        // blockModelGenerators.createTrivialCube(ModBlocks.BLACK_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.BROWN_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.CYAN_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.GRAY_PLANKS);
@@ -36,6 +36,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.family(ModBlocks.BLUE_PLANKS)
                 .stairs(ModBlocks.BLUE_WOOD_STAIRS)
                 .slab(ModBlocks.BLUE_WOOD_SLAB);
+        blockModelGenerators.family(ModBlocks.BLACK_PLANKS)
+                .stairs(ModBlocks.BLACK_WOOD_STAIRS)
+                .slab(ModBlocks.BLACK_WOOD_SLAB);
 
     }
 
