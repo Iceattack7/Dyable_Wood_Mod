@@ -1,6 +1,9 @@
 {
   "values": [
     "dyablewoodmod:blue_wood_slab",
-    "dyablewoodmod:black_wood_slab"
+    "dyablewoodmod:black_wood_slab",
+    "dyablewoodmod:brown_wood_slab",
+    "dyablewoodmod:cyan_wood_slab",
+    "dyablewoodmod:gray_wood_slab"
   ]
 }

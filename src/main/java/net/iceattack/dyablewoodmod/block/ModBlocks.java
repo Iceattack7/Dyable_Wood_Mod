@@ -76,9 +76,27 @@ public class ModBlocks {
             properties -> new SlabBlock(properties.strength(2.0f, 3.0f)));
 
     public static final Block BLACK_WOOD_STAIRS = registerBlock("black_wood_stairs",
-            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.defaultBlockState(),
+            properties -> new StairBlock(ModBlocks.BLACK_PLANKS.defaultBlockState(),
                     properties.strength(2.0f, 3.0f)));
     public static final Block BLACK_WOOD_SLAB = registerBlock("black_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)));
+
+    public static final Block BROWN_WOOD_STAIRS = registerBlock("brown_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BROWN_PLANKS.defaultBlockState(),
+                    properties.strength(2.0f, 3.0f)));
+    public static final Block BROWN_WOOD_SLAB = registerBlock("brown_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)));
+
+    public static final Block CYAN_WOOD_STAIRS = registerBlock("cyan_wood_stairs",
+            properties -> new StairBlock(ModBlocks.CYAN_PLANKS.defaultBlockState(),
+                    properties.strength(2.0f, 3.0f)));
+    public static final Block CYAN_WOOD_SLAB = registerBlock("cyan_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)));
+
+    public static final Block GRAY_WOOD_STAIRS = registerBlock("gray_wood_stairs",
+            properties -> new StairBlock(ModBlocks.GRAY_PLANKS.defaultBlockState(),
+                    properties.strength(2.0f, 3.0f)));
+    public static final Block GRAY_WOOD_SLAB = registerBlock("gray_wood_slab",
             properties -> new SlabBlock(properties.strength(2.0f, 3.0f)));
 
     public static ResourceKey<Block> getRK(Block block) {

@@ -37,6 +37,12 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.BLUE_WOOD_SLAB, this::createSlabItemTable);
         dropSelf(ModBlocks.BLACK_WOOD_STAIRS);
         add(ModBlocks.BLACK_WOOD_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.BROWN_WOOD_STAIRS);
+        add(ModBlocks.BROWN_WOOD_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.CYAN_WOOD_STAIRS);
+        add(ModBlocks.CYAN_WOOD_SLAB, this::createSlabItemTable);
+        dropSelf(ModBlocks.GRAY_WOOD_STAIRS);
+        add(ModBlocks.GRAY_WOOD_SLAB, this::createSlabItemTable);
 
     }
 }
