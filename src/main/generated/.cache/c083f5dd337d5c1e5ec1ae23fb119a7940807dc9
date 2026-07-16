@@ -1,4 +1,6 @@
 // 26.2	-999999999-01-01T00:00:00	Dyable Wood Mod/Dyable Wood Mod Recipes
+a9c06cfa5b50e53fd7ab071f29569bb668eb11d7 data/dyablewoodmod/advancement/recipes/building_blocks/blue_wood_slab.json
+f74123ed0ebedf97f0051d99c8916c25bc8e7823 data/dyablewoodmod/advancement/recipes/building_blocks/blue_wood_stairs.json
 53883f448e08666baea3818521dac653c6fe8203 data/dyablewoodmod/advancement/recipes/misc/black_planks.json
 678a2a63cb1c981f1cf78f15aeac0f5d80577e6b data/dyablewoodmod/advancement/recipes/misc/blue_planks.json
 f80f3528f05f2cb496a099ae1b73553b01a34e25 data/dyablewoodmod/advancement/recipes/misc/brown_planks.json
@@ -18,6 +20,8 @@ d408acc832e9fdc97e41836080fcdbb27694d462 data/dyablewoodmod/advancement/recipes/
 c885eef51eb4b4084c0d265cb110eccd6694d75e data/dyablewoodmod/advancement/recipes/misc/yellow_planks.json
 1efb4c4495157de6f53c32fa80fb3679cbff289c data/dyablewoodmod/recipe/black_planks.json
 4e9cac49e72fa16fd8fdb2c4ee6aec3cb5ada2c8 data/dyablewoodmod/recipe/blue_planks.json
+4a4f94874ad6ddb796f6895c26fe96ddfb80f9c5 data/dyablewoodmod/recipe/blue_wood_slab.json
+989de84c4c6a8e4681d1cae0ff16a356b30e1735 data/dyablewoodmod/recipe/blue_wood_stairs.json
 ddfa7f2d0c13bbc007834267d51dd78a65bab206 data/dyablewoodmod/recipe/brown_planks.json
 872cf5ba3989be33d829aa8b0ceeba3fd166bf47 data/dyablewoodmod/recipe/cyan_planks.json
 60f49bf1c740738b364c6ec7995143894721487e data/dyablewoodmod/recipe/gray_planks.json

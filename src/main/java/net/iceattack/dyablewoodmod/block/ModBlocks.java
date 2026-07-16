@@ -9,7 +9,9 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
 import java.util.function.Function;
@@ -67,8 +69,14 @@ public class ModBlocks {
             properties -> new Block(properties.strength(2.0f, 3.0f)
                     .sound(SoundType.WOOD)));
 
+    public static final Block BLUE_WOOD_STAIRS = registerBlock("blue_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.defaultBlockState(),
+                    properties.strength(2.0f, 3.0f)));
+    public static final Block BLUE_WOOD_SLAB = registerBlock("blue_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)));
 
     public static ResourceKey<Block> getRK(Block block) {
+
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();
     }
 

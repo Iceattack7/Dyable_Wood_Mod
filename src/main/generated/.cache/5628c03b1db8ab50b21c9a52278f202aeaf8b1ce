@@ -1,6 +1,8 @@
 // 26.2	-999999999-01-01T00:00:00	Dyable Wood Mod/Block Loot Tables
 4156622e8094202c58e612bea4d76727a210e190 data/dyablewoodmod/loot_table/blocks/black_planks.json
 77cfce5ecc1595f0a10dd153dbb33def0f01db51 data/dyablewoodmod/loot_table/blocks/blue_planks.json
+d216752bb261948953d5c29f1d22acce84635a36 data/dyablewoodmod/loot_table/blocks/blue_wood_slab.json
+29a1b4fa9adb119e249a5aa16a007f346a925e54 data/dyablewoodmod/loot_table/blocks/blue_wood_stairs.json
 e1a7431c86b3a2da618b22c057f6dc0944abf98d data/dyablewoodmod/loot_table/blocks/brown_planks.json
 0dd5b9640db26f3277468f6e1a6db9dd1cae80b6 data/dyablewoodmod/loot_table/blocks/cyan_planks.json
 e9c21bdb7544b17bd250cb7686d58df89622e837 data/dyablewoodmod/loot_table/blocks/gray_planks.json

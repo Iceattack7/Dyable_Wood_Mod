@@ -11,6 +11,8 @@ import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.DyeColor;
+import net.minecraft.world.item.crafting.Ingredient;
+
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -126,6 +128,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .requires(ItemTags.PLANKS)
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
+
+                stairBuilder(ModBlocks.BLUE_WOOD_STAIRS, Ingredient.of(ModBlocks.BLUE_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_WOOD_SLAB, ModBlocks.BLUE_PLANKS);
 
             }
         };
