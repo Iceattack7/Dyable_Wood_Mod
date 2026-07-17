@@ -22,11 +22,11 @@ public class ModModelProvider extends FabricModelProvider {
         // blockModelGenerators.createTrivialCube(ModBlocks.GRAY_PLANKS);
         // blockModelGenerators.createTrivialCube(ModBlocks.GREEN_PLANKS);
         // blockModelGenerators.createTrivialCube(ModBlocks.LIGHT_BLUE_PLANKS);
-        blockModelGenerators.createTrivialCube(ModBlocks.LIGHT_GRAY_PLANKS);
-        blockModelGenerators.createTrivialCube(ModBlocks.LIGHT_PURPLE_PLANKS);
-        blockModelGenerators.createTrivialCube(ModBlocks.LIME_PLANKS);
-        blockModelGenerators.createTrivialCube(ModBlocks.MAGENTA_PLANKS);
-        blockModelGenerators.createTrivialCube(ModBlocks.ORANGE_PLANKS);
+        // blockModelGenerators.createTrivialCube(ModBlocks.LIGHT_GRAY_PLANKS);
+        // blockModelGenerators.createTrivialCube(ModBlocks.LIGHT_PURPLE_PLANKS);
+        // blockModelGenerators.createTrivialCube(ModBlocks.LIME_PLANKS);
+        // blockModelGenerators.createTrivialCube(ModBlocks.MAGENTA_PLANKS);
+        // blockModelGenerators.createTrivialCube(ModBlocks.ORANGE_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.PINK_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.PURPLE_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.RED_PLANKS);
@@ -54,6 +54,21 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.family(ModBlocks.LIGHT_BLUE_PLANKS)
                 .stairs(ModBlocks.LIGHT_BLUE_WOOD_STAIRS)
                 .slab(ModBlocks.LIGHT_BLUE_WOOD_SLAB);
+        blockModelGenerators.family(ModBlocks.LIGHT_GRAY_PLANKS)
+                .stairs(ModBlocks.LIGHT_GRAY_WOOD_STAIRS)
+                .slab(ModBlocks.LIGHT_GRAY_WOOD_SLAB);
+        blockModelGenerators.family(ModBlocks.LIGHT_PURPLE_PLANKS)
+                .stairs(ModBlocks.LIGHT_PURPLE_WOOD_STAIRS)
+                .slab(ModBlocks.LIGHT_PURPLE_WOOD_SLAB);
+        blockModelGenerators.family(ModBlocks.LIME_PLANKS)
+                .stairs(ModBlocks.LIME_WOOD_STAIRS)
+                .slab(ModBlocks.LIME_WOOD_SLAB);
+        blockModelGenerators.family(ModBlocks.MAGENTA_PLANKS)
+                .stairs(ModBlocks.MAGENTA_WOOD_STAIRS)
+                .slab(ModBlocks.MAGENTA_WOOD_SLAB);
+        blockModelGenerators.family(ModBlocks.ORANGE_PLANKS)
+                .stairs(ModBlocks.ORANGE_WOOD_STAIRS)
+                .slab(ModBlocks.ORANGE_WOOD_SLAB);
 
     }
 

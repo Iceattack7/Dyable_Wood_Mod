@@ -59,6 +59,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GREEN_WOOD_SLAB);
                         output.accept(ModBlocks.LIGHT_BLUE_WOOD_STAIRS);
                         output.accept(ModBlocks.LIGHT_BLUE_WOOD_SLAB);
+                        output.accept(ModBlocks.LIGHT_GRAY_WOOD_STAIRS);
+                        output.accept(ModBlocks.LIGHT_GRAY_WOOD_SLAB);
+                        output.accept(ModBlocks.LIGHT_PURPLE_WOOD_STAIRS);
+                        output.accept(ModBlocks.LIGHT_PURPLE_WOOD_SLAB);
+                        output.accept(ModBlocks.LIME_WOOD_STAIRS);
+                        output.accept(ModBlocks.LIME_WOOD_SLAB);
+                        output.accept(ModBlocks.MAGENTA_WOOD_STAIRS);
+                        output.accept(ModBlocks.MAGENTA_WOOD_SLAB);
+                        output.accept(ModBlocks.ORANGE_WOOD_STAIRS);
+                        output.accept(ModBlocks.ORANGE_WOOD_SLAB);
 
 
                     }).build());
