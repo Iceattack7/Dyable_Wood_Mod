@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dyablewoodmod:block/light_blue_planks",
+    "side": "dyablewoodmod:block/light_blue_planks",
+    "top": "dyablewoodmod:block/light_blue_planks"
+  }
+}

@@ -1,5 +1,5 @@
 // 26.2	-999999999-01-01T00:00:00	Dyable Wood Mod/Tags for minecraft:block
-822b639581fd49f29dce5dcd925525b7a63ea9aa data/minecraft/tags/block/mineable/axe.json
+14761c81f487dfd7fef1da6239cf51d270615774 data/minecraft/tags/block/mineable/axe.json
 ff9ccf3d663eb23b657bede87496111735ffc21f data/minecraft/tags/block/planks.json
-35fef5a32a26b4c0c7d3a95b532592ccc757f255 data/minecraft/tags/block/slabs.json
-d17c5ca3aee3cea1864f9d58c0f54385f9c06f3d data/minecraft/tags/block/stairs.json
+983fa07cd80deffba950602bdcdc4567ffdb94c1 data/minecraft/tags/block/slabs.json
+04372890320c212e1814fbb417452ca619d79824 data/minecraft/tags/block/stairs.json
