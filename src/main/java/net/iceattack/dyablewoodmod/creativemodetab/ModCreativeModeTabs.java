@@ -77,6 +77,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RED_WOOD_SLAB);
                         output.accept(ModBlocks.WHITE_WOOD_STAIRS);
                         output.accept(ModBlocks.WHITE_WOOD_SLAB);
+                        output.accept(ModBlocks.YELLOW_WOOD_STAIRS);
+                        output.accept(ModBlocks.YELLOW_WOOD_SLAB);
 
 
                     }).build());

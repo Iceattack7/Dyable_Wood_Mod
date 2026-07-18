@@ -225,6 +225,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_WOOD_SLAB, ModBlocks.WHITE_PLANKS);
 
+                stairBuilder(ModBlocks.YELLOW_WOOD_STAIRS, Ingredient.of(ModBlocks.YELLOW_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_WOOD_SLAB, ModBlocks.YELLOW_PLANKS);
+
             }
         };
     }
