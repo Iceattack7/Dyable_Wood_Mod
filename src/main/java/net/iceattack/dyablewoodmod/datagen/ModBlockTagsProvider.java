@@ -62,7 +62,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.PURPLE_WOOD_STAIRS))
                 .add(ModBlocks.getRK(ModBlocks.PURPLE_WOOD_SLAB))
                 .add(ModBlocks.getRK(ModBlocks.RED_WOOD_STAIRS))
-                .add(ModBlocks.getRK(ModBlocks.RED_WOOD_SLAB));
+                .add(ModBlocks.getRK(ModBlocks.RED_WOOD_SLAB))
+                .add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_STAIRS))
+                .add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_SLAB));
 
 
         tag(BlockTags.PLANKS)
@@ -114,7 +116,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.PURPLE_WOOD_SLAB));
         tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.RED_WOOD_STAIRS));
         tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.RED_WOOD_SLAB));
-
+        tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_STAIRS));
+        tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_SLAB));
 
 
     }
