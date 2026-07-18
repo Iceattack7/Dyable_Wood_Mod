@@ -27,7 +27,7 @@ public class ModModelProvider extends FabricModelProvider {
         // blockModelGenerators.createTrivialCube(ModBlocks.LIME_PLANKS);
         // blockModelGenerators.createTrivialCube(ModBlocks.MAGENTA_PLANKS);
         // blockModelGenerators.createTrivialCube(ModBlocks.ORANGE_PLANKS);
-        blockModelGenerators.createTrivialCube(ModBlocks.PINK_PLANKS);
+        // blockModelGenerators.createTrivialCube(ModBlocks.PINK_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.PURPLE_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.RED_PLANKS);
         blockModelGenerators.createTrivialCube(ModBlocks.WHITE_PLANKS);
@@ -69,6 +69,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.family(ModBlocks.ORANGE_PLANKS)
                 .stairs(ModBlocks.ORANGE_WOOD_STAIRS)
                 .slab(ModBlocks.ORANGE_WOOD_SLAB);
+        blockModelGenerators.family(ModBlocks.PINK_PLANKS)
+                .stairs(ModBlocks.PINK_WOOD_STAIRS)
+                .slab(ModBlocks.PINK_WOOD_SLAB);
 
     }
 
