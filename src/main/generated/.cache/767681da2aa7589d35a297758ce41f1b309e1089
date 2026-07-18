@@ -1,5 +1,7 @@
 // 26.2	-999999999-01-01T00:00:00	Dyable Wood Mod/Tags for minecraft:block
+5bd84bdd827c2b9a5d557135bb6ac2431a000bbd data/minecraft/tags/block/buttons.json
 2773d5df5245a5b9427da4f8c94a07a694b7a224 data/minecraft/tags/block/mineable/axe.json
 ff9ccf3d663eb23b657bede87496111735ffc21f data/minecraft/tags/block/planks.json
+0d5db8bb6067e35304ff9e05da2765582dc5f92d data/minecraft/tags/block/pressure_plates.json
 d1014d0a9dcc17194238e489e2ab2d91f58e851a data/minecraft/tags/block/slabs.json
 3374ece69e6a6ef0057c384a811473da8ca72ad1 data/minecraft/tags/block/stairs.json

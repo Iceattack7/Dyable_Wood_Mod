@@ -123,6 +123,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.STAIRS).add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_STAIRS));
         tag(BlockTags.SLABS).add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_SLAB));
 
+        tag(BlockTags.BUTTONS).add(ModBlocks.getRK(ModBlocks.BLUE_WOOD_BUTTON));
+        tag(BlockTags.PRESSURE_PLATES).add(ModBlocks.getRK(ModBlocks.BLUE_WOOD_PRESSURE_PLATE));
+
 
     }
 }
