@@ -50,6 +50,8 @@
     "dyablewoodmod:white_wood_stairs",
     "dyablewoodmod:white_wood_slab",
     "dyablewoodmod:yellow_wood_stairs",
-    "dyablewoodmod:yellow_wood_slab"
+    "dyablewoodmod:yellow_wood_slab",
+    "dyablewoodmod:blue_wood_button",
+    "dyablewoodmod:blue_wood_pressure_plate"
   ]
 }
