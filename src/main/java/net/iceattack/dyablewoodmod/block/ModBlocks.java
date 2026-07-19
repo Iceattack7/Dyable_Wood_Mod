@@ -175,12 +175,12 @@ public class ModBlocks {
 
 
     public static final Block BLUE_WOOD_BUTTON = registerBlock("blue_wood_button",
-            properties -> new ButtonBlock(BlockSetType.OAK, 20,
-                    properties.strength(2.0f, 3.0f).noCollision()));
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
     public static final Block BLUE_WOOD_PRESSURE_PLATE = registerBlock("blue_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_BLUE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(2.0f, 3.0f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
 
     public static ResourceKey<Block> getRK(Block block) {
 
