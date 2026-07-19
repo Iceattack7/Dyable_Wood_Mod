@@ -58,6 +58,8 @@
     "dyablewoodmod:brown_wood_button",
     "dyablewoodmod:brown_wood_pressure_plate",
     "dyablewoodmod:cyan_wood_button",
-    "dyablewoodmod:cyan_wood_pressure_plate"
+    "dyablewoodmod:cyan_wood_pressure_plate",
+    "dyablewoodmod:gray_wood_button",
+    "dyablewoodmod:gray_wood_pressure_plate"
   ]
 }

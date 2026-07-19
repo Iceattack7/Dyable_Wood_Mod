@@ -88,6 +88,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BROWN_WOOD_PRESSURE_PLATE);
                         output.accept(ModBlocks.CYAN_WOOD_BUTTON);
                         output.accept(ModBlocks.CYAN_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.GRAY_WOOD_BUTTON);
+                        output.accept(ModBlocks.GRAY_WOOD_PRESSURE_PLATE);
 
 
                     }).build());
