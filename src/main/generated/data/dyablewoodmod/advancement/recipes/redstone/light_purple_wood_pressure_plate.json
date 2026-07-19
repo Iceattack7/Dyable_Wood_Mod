@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_light_purple_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dyablewoodmod:light_purple_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dyablewoodmod:light_purple_wood_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_light_purple_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dyablewoodmod:light_purple_wood_pressure_plate"
+    ]
+  }
+}

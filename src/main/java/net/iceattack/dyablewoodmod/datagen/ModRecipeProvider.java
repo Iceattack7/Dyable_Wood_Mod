@@ -224,6 +224,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_PURPLE_WOOD_SLAB, ModBlocks.LIGHT_PURPLE_PLANKS);
 
+                buttonBuilder(ModBlocks.LIGHT_PURPLE_WOOD_BUTTON, Ingredient.of(ModBlocks.LIGHT_PURPLE_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+                pressurePlate(ModBlocks.LIGHT_PURPLE_WOOD_PRESSURE_PLATE, ModBlocks.LIGHT_PURPLE_PLANKS);
+
                 stairBuilder(ModBlocks.LIME_WOOD_STAIRS, Ingredient.of(ModBlocks.LIME_PLANKS))
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
