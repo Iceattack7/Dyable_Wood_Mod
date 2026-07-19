@@ -254,6 +254,14 @@ public class ModBlocks {
                     properties.mapColor(MapColor.COLOR_BLUE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
                             .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
 
+    public static final Block MAGENTA_WOOD_BUTTON = registerBlock("magenta_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final Block MAGENTA_WOOD_PRESSURE_PLATE = registerBlock("magenta_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_BLUE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+
     public static ResourceKey<Block> getRK(Block block) {
 
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();
