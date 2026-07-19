@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "dyablewoodmod:block/green_wood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "dyablewoodmod:block/green_wood_pressure_plate_down"
+    }
+  }
+}
