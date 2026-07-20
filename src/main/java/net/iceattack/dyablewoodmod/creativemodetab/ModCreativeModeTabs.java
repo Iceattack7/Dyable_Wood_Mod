@@ -123,6 +123,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BROWN_WOOD_FENCE_GATE);
                         output.accept(ModBlocks.CYAN_WOOD_FENCE);
                         output.accept(ModBlocks.CYAN_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.GRAY_WOOD_FENCE);
+                        output.accept(ModBlocks.GRAY_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.GREEN_WOOD_FENCE);
+                        output.accept(ModBlocks.GREEN_WOOD_FENCE_GATE);
 
 
                     }).build());

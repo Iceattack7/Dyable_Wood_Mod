@@ -92,6 +92,10 @@
     "dyablewoodmod:brown_wood_fence",
     "dyablewoodmod:brown_wood_fence_gate",
     "dyablewoodmod:cyan_wood_fence",
-    "dyablewoodmod:cyan_wood_fence_gate"
+    "dyablewoodmod:cyan_wood_fence_gate",
+    "dyablewoodmod:gray_wood_fence",
+    "dyablewoodmod:gray_wood_fence_gate",
+    "dyablewoodmod:green_wood_fence",
+    "dyablewoodmod:green_wood_fence_gate"
   ]
 }

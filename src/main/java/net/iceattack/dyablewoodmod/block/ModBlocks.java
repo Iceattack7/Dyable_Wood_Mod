@@ -331,6 +331,16 @@ public class ModBlocks {
     public static final Block CYAN_WOOD_FENCE_GATE = registerBlock("cyan_wood_fence_gate",
             properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
 
+    public static final Block GRAY_WOOD_FENCE = registerBlock("gray_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final Block GRAY_WOOD_FENCE_GATE = registerBlock("gray_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+
+    public static final Block GREEN_WOOD_FENCE = registerBlock("green_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final Block GREEN_WOOD_FENCE_GATE = registerBlock("green_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+
     public static ResourceKey<Block> getRK(Block block) {
 
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();
