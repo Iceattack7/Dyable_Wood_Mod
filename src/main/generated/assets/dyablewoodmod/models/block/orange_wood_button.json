@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "dyablewoodmod:block/orange_planks"
+  }
+}
