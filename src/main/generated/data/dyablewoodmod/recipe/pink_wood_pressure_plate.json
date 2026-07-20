@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "dyablewoodmod:pink_planks"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "dyablewoodmod:pink_wood_pressure_plate"
+  }
+}
