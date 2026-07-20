@@ -115,7 +115,9 @@ public class ModModelProvider extends FabricModelProvider {
                 .pressurePlate(ModBlocks.WHITE_WOOD_PRESSURE_PLATE);
         blockModelGenerators.family(ModBlocks.YELLOW_PLANKS)
                 .stairs(ModBlocks.YELLOW_WOOD_STAIRS)
-                .slab(ModBlocks.YELLOW_WOOD_SLAB);
+                .slab(ModBlocks.YELLOW_WOOD_SLAB)
+                .button(ModBlocks.YELLOW_WOOD_BUTTON)
+                .pressurePlate(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE);
 
     }
 

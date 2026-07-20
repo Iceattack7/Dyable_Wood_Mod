@@ -98,7 +98,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.RED_WOOD_BUTTON))
                 .add(ModBlocks.getRK(ModBlocks.RED_WOOD_PRESSURE_PLATE))
                 .add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_BUTTON))
-                .add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_PRESSURE_PLATE));
+                .add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_PRESSURE_PLATE))
+                .add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_BUTTON))
+                .add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE));
 
 
         tag(BlockTags.PLANKS)
@@ -187,6 +189,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.WOODEN_PRESSURE_PLATES).add(ModBlocks.getRK(ModBlocks.RED_WOOD_PRESSURE_PLATE));
         tag(BlockTags.BUTTONS).add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_BUTTON));
         tag(BlockTags.WOODEN_PRESSURE_PLATES).add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_PRESSURE_PLATE));
+        tag(BlockTags.BUTTONS).add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_BUTTON));
+        tag(BlockTags.WOODEN_PRESSURE_PLATES).add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE));
 
 
     }
