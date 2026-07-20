@@ -331,6 +331,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
                 pressurePlate(ModBlocks.MAGENTA_WOOD_PRESSURE_PLATE, ModBlocks.MAGENTA_PLANKS);
 
+                fenceBuilder(ModBlocks.MAGENTA_WOOD_FENCE, Ingredient.of(ModBlocks.MAGENTA_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                fenceGateBuilder(ModBlocks.MAGENTA_WOOD_FENCE_GATE, Ingredient.of(ModBlocks.MAGENTA_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
                 stairBuilder(ModBlocks.ORANGE_WOOD_STAIRS, Ingredient.of(ModBlocks.ORANGE_PLANKS))
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);

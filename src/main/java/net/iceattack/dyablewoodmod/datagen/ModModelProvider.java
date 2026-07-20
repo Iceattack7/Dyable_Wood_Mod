@@ -107,7 +107,9 @@ public class ModModelProvider extends FabricModelProvider {
                 .stairs(ModBlocks.MAGENTA_WOOD_STAIRS)
                 .slab(ModBlocks.MAGENTA_WOOD_SLAB)
                 .button(ModBlocks.MAGENTA_WOOD_BUTTON)
-                .pressurePlate(ModBlocks.MAGENTA_WOOD_PRESSURE_PLATE);
+                .pressurePlate(ModBlocks.MAGENTA_WOOD_PRESSURE_PLATE)
+                .fence(ModBlocks.MAGENTA_WOOD_FENCE)
+                .fenceGate(ModBlocks.MAGENTA_WOOD_FENCE_GATE);
         blockModelGenerators.family(ModBlocks.ORANGE_PLANKS)
                 .stairs(ModBlocks.ORANGE_WOOD_STAIRS)
                 .slab(ModBlocks.ORANGE_WOOD_SLAB)
