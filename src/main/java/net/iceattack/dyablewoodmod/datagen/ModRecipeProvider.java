@@ -198,6 +198,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
                 pressurePlate(ModBlocks.CYAN_WOOD_PRESSURE_PLATE, ModBlocks.CYAN_PLANKS);
 
+                fenceBuilder(ModBlocks.CYAN_WOOD_FENCE, Ingredient.of(ModBlocks.CYAN_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                fenceGateBuilder(ModBlocks.CYAN_WOOD_FENCE_GATE, Ingredient.of(ModBlocks.CYAN_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
                 stairBuilder(ModBlocks.GRAY_WOOD_STAIRS, Ingredient.of(ModBlocks.GRAY_PLANKS))
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
