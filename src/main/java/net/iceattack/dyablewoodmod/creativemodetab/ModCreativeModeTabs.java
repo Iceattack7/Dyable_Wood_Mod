@@ -137,6 +137,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LIME_WOOD_FENCE_GATE);
                         output.accept(ModBlocks.MAGENTA_WOOD_FENCE);
                         output.accept(ModBlocks.MAGENTA_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.ORANGE_WOOD_FENCE);
+                        output.accept(ModBlocks.ORANGE_WOOD_FENCE_GATE);
 
 
                     }).build());
