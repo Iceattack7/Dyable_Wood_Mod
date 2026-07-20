@@ -1,6 +1,8 @@
 // 26.2	-999999999-01-01T00:00:00	Dyable Wood Mod/Block Loot Tables
 4156622e8094202c58e612bea4d76727a210e190 data/dyablewoodmod/loot_table/blocks/black_planks.json
 19a19c3610455ad38b11ef842f45d69cfa62595b data/dyablewoodmod/loot_table/blocks/black_wood_button.json
+c1969794939b3f0cc25e5dad746ee6ac7da1a010 data/dyablewoodmod/loot_table/blocks/black_wood_fence.json
+6b49f0b02809046696b8159d89d1252b8df32891 data/dyablewoodmod/loot_table/blocks/black_wood_fence_gate.json
 237ac569f83a29b619fc0873b8bca121b82a77b1 data/dyablewoodmod/loot_table/blocks/black_wood_pressure_plate.json
 cb890a0ab402346778d4e859c6191992c7e2a86d data/dyablewoodmod/loot_table/blocks/black_wood_slab.json
 f05b26e4f3fcb1e94f7a4ca18aa48fc9a6626fec data/dyablewoodmod/loot_table/blocks/black_wood_stairs.json

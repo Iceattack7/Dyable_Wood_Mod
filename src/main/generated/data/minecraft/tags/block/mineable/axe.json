@@ -84,6 +84,10 @@
     "dyablewoodmod:white_wood_button",
     "dyablewoodmod:white_wood_pressure_plate",
     "dyablewoodmod:yellow_wood_button",
-    "dyablewoodmod:yellow_wood_pressure_plate"
+    "dyablewoodmod:yellow_wood_pressure_plate",
+    "dyablewoodmod:blue_wood_fence",
+    "dyablewoodmod:blue_wood_fence_gate",
+    "dyablewoodmod:black_wood_fence",
+    "dyablewoodmod:black_wood_fence_gate"
   ]
 }

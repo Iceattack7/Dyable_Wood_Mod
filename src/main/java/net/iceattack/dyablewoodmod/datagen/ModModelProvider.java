@@ -44,7 +44,9 @@ public class ModModelProvider extends FabricModelProvider {
                 .stairs(ModBlocks.BLACK_WOOD_STAIRS)
                 .slab(ModBlocks.BLACK_WOOD_SLAB)
                 .button(ModBlocks.BLACK_WOOD_BUTTON)
-                .pressurePlate(ModBlocks.BLACK_WOOD_PRESSURE_PLATE);
+                .pressurePlate(ModBlocks.BLACK_WOOD_PRESSURE_PLATE)
+                .fence(ModBlocks.BLACK_WOOD_FENCE)
+                .fenceGate(ModBlocks.BLACK_WOOD_FENCE_GATE);
         blockModelGenerators.family(ModBlocks.BROWN_PLANKS)
                 .stairs(ModBlocks.BROWN_WOOD_STAIRS)
                 .slab(ModBlocks.BROWN_WOOD_SLAB)
