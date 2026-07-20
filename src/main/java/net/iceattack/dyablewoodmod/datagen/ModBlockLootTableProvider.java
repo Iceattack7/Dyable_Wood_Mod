@@ -94,6 +94,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.ORANGE_WOOD_PRESSURE_PLATE);
         dropSelf(ModBlocks.PINK_WOOD_BUTTON);
         dropSelf(ModBlocks.PINK_WOOD_PRESSURE_PLATE);
+        dropSelf(ModBlocks.PURPLE_WOOD_BUTTON);
+        dropSelf(ModBlocks.PURPLE_WOOD_PRESSURE_PLATE);
 
     }
 }
