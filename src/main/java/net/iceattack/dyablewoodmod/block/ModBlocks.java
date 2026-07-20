@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 
@@ -309,6 +310,11 @@ public class ModBlocks {
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_YELLOW).forceSolidOn().instrument(NoteBlockInstrument.BASS)
                             .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+
+    public static final Block BLUE_WOOD_FENCE = registerBlock("blue_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final Block BLUE_WOOD_FENCE_GATE = registerBlock("blue_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
 
     public static ResourceKey<Block> getRK(Block block) {
 
