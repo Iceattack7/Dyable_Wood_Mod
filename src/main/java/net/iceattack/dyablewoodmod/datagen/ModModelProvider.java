@@ -43,6 +43,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockModelGenerators.createDoor(ModBlocks.BLUE_ACACIA_DOOR);
         blockModelGenerators.createTrapdoor(ModBlocks.BLUE_ACACIA_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.BLUE_BIRCH_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.BLUE_BIRCH_TRAPDOOR);
 
         blockModelGenerators.family(ModBlocks.BLACK_PLANKS)
                 .stairs(ModBlocks.BLACK_WOOD_STAIRS)

@@ -136,7 +136,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_FENCE))
                 .add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_FENCE_GATE))
                 .add(ModBlocks.getRK(ModBlocks.BLUE_ACACIA_DOOR))
-                .add(ModBlocks.getRK(ModBlocks.BLUE_ACACIA_TRAPDOOR));
+                .add(ModBlocks.getRK(ModBlocks.BLUE_ACACIA_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.BLUE_BIRCH_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.BLUE_BIRCH_TRAPDOOR));
 
 
         tag(BlockTags.PLANKS)
@@ -265,6 +267,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
         tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.BLUE_ACACIA_DOOR));
         tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.BLUE_ACACIA_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.BLUE_BIRCH_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.BLUE_BIRCH_TRAPDOOR));
 
 
     }

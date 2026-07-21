@@ -152,6 +152,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.BLUE_ACACIA_DOOR);
                         output.accept(ModBlocks.BLUE_ACACIA_TRAPDOOR);
+                        output.accept(ModBlocks.BLUE_BIRCH_DOOR);
+                        output.accept(ModBlocks.BLUE_BIRCH_TRAPDOOR);
 
 
                     }).build());

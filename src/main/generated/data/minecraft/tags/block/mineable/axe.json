@@ -120,6 +120,8 @@
     "dyablewoodmod:yellow_wood_fence",
     "dyablewoodmod:yellow_wood_fence_gate",
     "dyablewoodmod:blue_acacia_door",
-    "dyablewoodmod:blue_acacia_trapdoor"
+    "dyablewoodmod:blue_acacia_trapdoor",
+    "dyablewoodmod:blue_birch_door",
+    "dyablewoodmod:blue_birch_trapdoor"
   ]
 }

@@ -403,6 +403,13 @@ public class ModBlocks {
             properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
                     .noOcclusion()));
 
+    public static final Block BLUE_BIRCH_DOOR = registerBlock("blue_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final Block BLUE_BIRCH_TRAPDOOR = registerBlock("blue_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
 
     public static ResourceKey<Block> getRK(Block block) {
 

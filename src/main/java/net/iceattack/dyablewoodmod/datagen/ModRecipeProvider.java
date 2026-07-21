@@ -163,6 +163,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
 
+                shapeless(RecipeCategory.MISC, ModBlocks.BLUE_BIRCH_DOOR, 1)
+                        .requires(ConventionalItemTags.BLUE_DYES)
+                        .requires(Blocks.BIRCH_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.BLUE_BIRCH_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.BLUE_DYES)
+                        .requires(Blocks.BIRCH_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
                 stairBuilder(ModBlocks.BLACK_WOOD_STAIRS, Ingredient.of(ModBlocks.BLACK_PLANKS))
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
