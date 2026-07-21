@@ -114,6 +114,10 @@
     "dyablewoodmod:purple_wood_fence",
     "dyablewoodmod:purple_wood_fence_gate",
     "dyablewoodmod:red_wood_fence",
-    "dyablewoodmod:red_wood_fence_gate"
+    "dyablewoodmod:red_wood_fence_gate",
+    "dyablewoodmod:white_wood_fence",
+    "dyablewoodmod:white_wood_fence_gate",
+    "dyablewoodmod:yellow_wood_fence",
+    "dyablewoodmod:yellow_wood_fence_gate"
   ]
 }

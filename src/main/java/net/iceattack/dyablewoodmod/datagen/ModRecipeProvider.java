@@ -426,6 +426,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
                 pressurePlate(ModBlocks.WHITE_WOOD_PRESSURE_PLATE, ModBlocks.WHITE_PLANKS);
 
+                fenceBuilder(ModBlocks.WHITE_WOOD_FENCE, Ingredient.of(ModBlocks.WHITE_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                fenceGateBuilder(ModBlocks.WHITE_WOOD_FENCE_GATE, Ingredient.of(ModBlocks.WHITE_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
                 stairBuilder(ModBlocks.YELLOW_WOOD_STAIRS, Ingredient.of(ModBlocks.YELLOW_PLANKS))
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
@@ -436,6 +444,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
                 pressurePlate(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE, ModBlocks.YELLOW_PLANKS);
+
+                fenceBuilder(ModBlocks.YELLOW_WOOD_FENCE, Ingredient.of(ModBlocks.YELLOW_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                fenceGateBuilder(ModBlocks.YELLOW_WOOD_FENCE_GATE, Ingredient.of(ModBlocks.YELLOW_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
 
             }
         };
