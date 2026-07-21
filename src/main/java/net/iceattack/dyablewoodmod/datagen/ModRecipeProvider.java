@@ -149,6 +149,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
 
+                doorBuilder(ModBlocks.BLUE_ACACIA_DOOR, Ingredient.of(ModBlocks.BLUE_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                trapdoorBuilder(ModBlocks.BLUE_ACACIA_TRAPDOOR, Ingredient.of(ModBlocks.BLUE_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
                 stairBuilder(ModBlocks.BLACK_WOOD_STAIRS, Ingredient.of(ModBlocks.BLACK_PLANKS))
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
