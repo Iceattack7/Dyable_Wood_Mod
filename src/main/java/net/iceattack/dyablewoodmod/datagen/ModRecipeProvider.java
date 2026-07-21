@@ -11,7 +11,9 @@ import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.DyeColor;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Blocks;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -149,11 +151,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
 
-                doorBuilder(ModBlocks.BLUE_ACACIA_DOOR, Ingredient.of(ModBlocks.BLUE_PLANKS))
+                shapeless(RecipeCategory.MISC, ModBlocks.BLUE_ACACIA_DOOR, 1)
+                        .requires(ConventionalItemTags.BLUE_DYES)
+                        .requires(Blocks.ACACIA_DOOR)
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
 
-                trapdoorBuilder(ModBlocks.BLUE_ACACIA_TRAPDOOR, Ingredient.of(ModBlocks.BLUE_PLANKS))
+                shapeless(RecipeCategory.MISC, ModBlocks.BLUE_ACACIA_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.BLUE_DYES)
+                        .requires(Blocks.ACACIA_TRAPDOOR)
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
 

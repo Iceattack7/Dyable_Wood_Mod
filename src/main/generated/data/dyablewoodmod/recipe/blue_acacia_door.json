@@ -1,16 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "redstone",
-  "key": {
-    "#": "dyablewoodmod:blue_planks"
-  },
-  "pattern": [
-    "##",
-    "##",
-    "##"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dyes/blue",
+    "minecraft:acacia_door"
   ],
   "result": {
-    "count": 3,
     "id": "dyablewoodmod:blue_acacia_door"
   }
 }
