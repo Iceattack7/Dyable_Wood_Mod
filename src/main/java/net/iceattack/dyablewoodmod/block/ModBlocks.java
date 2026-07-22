@@ -417,6 +417,13 @@ public class ModBlocks {
             properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
                     .noOcclusion()));
 
+    public static final Block BLUE_JUNGLE_DOOR = registerBlock("blue_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final Block BLUE_JUNGLE_TRAPDOOR = registerBlock("blue_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
 
     public static ResourceKey<Block> getRK(Block block) {
 
