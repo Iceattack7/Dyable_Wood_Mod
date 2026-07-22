@@ -431,6 +431,13 @@ public class ModBlocks {
             properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
                     .noOcclusion()));
 
+    public static final Block BLUE_SPRUCE_DOOR = registerBlock("blue_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final Block BLUE_SPRUCE_TRAPDOOR = registerBlock("blue_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
 
     public static ResourceKey<Block> getRK(Block block) {
 
