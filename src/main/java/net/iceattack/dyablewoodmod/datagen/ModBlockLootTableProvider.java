@@ -174,6 +174,18 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.BROWN_OAK_TRAPDOOR);
         add(ModBlocks.BROWN_SPRUCE_DOOR, this::createDoorTable);
         dropSelf(ModBlocks.BROWN_SPRUCE_TRAPDOOR);
+        add(ModBlocks.CYAN_ACACIA_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.CYAN_ACACIA_TRAPDOOR);
+        add(ModBlocks.CYAN_BIRCH_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.CYAN_BIRCH_TRAPDOOR);
+        add(ModBlocks.CYAN_DARK_OAK_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.CYAN_DARK_OAK_TRAPDOOR);
+        add(ModBlocks.CYAN_JUNGLE_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.CYAN_JUNGLE_TRAPDOOR);
+        add(ModBlocks.CYAN_OAK_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.CYAN_OAK_TRAPDOOR);
+        add(ModBlocks.CYAN_SPRUCE_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.CYAN_SPRUCE_TRAPDOOR);
 
 
     }

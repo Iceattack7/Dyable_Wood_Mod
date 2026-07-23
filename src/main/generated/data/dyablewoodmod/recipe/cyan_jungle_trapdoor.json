@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dyes/cyan",
+    "minecraft:jungle_trapdoor"
+  ],
+  "result": {
+    "id": "dyablewoodmod:cyan_jungle_trapdoor"
+  }
+}

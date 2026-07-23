@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dyes/cyan",
+    "minecraft:birch_trapdoor"
+  ],
+  "result": {
+    "id": "dyablewoodmod:cyan_birch_trapdoor"
+  }
+}

@@ -170,7 +170,19 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.BROWN_OAK_DOOR))
                 .add(ModBlocks.getRK(ModBlocks.BROWN_OAK_TRAPDOOR))
                 .add(ModBlocks.getRK(ModBlocks.BROWN_SPRUCE_DOOR))
-                .add(ModBlocks.getRK(ModBlocks.BROWN_SPRUCE_TRAPDOOR));
+                .add(ModBlocks.getRK(ModBlocks.BROWN_SPRUCE_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_ACACIA_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_ACACIA_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_BIRCH_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_BIRCH_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_DARK_OAK_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_DARK_OAK_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_JUNGLE_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_JUNGLE_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_OAK_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_OAK_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_SPRUCE_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_SPRUCE_TRAPDOOR));
 
         // Makes blocks mineable with pickaxe ^^^^
 
@@ -335,6 +347,18 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.BROWN_OAK_TRAPDOOR));
         tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.BROWN_SPRUCE_DOOR));
         tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.BROWN_SPRUCE_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.CYAN_ACACIA_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.CYAN_ACACIA_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.CYAN_BIRCH_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.CYAN_BIRCH_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.CYAN_DARK_OAK_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.CYAN_DARK_OAK_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.CYAN_JUNGLE_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.CYAN_JUNGLE_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.CYAN_OAK_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.CYAN_OAK_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.CYAN_SPRUCE_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.CYAN_SPRUCE_TRAPDOOR));
 
 
 
