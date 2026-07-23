@@ -53,6 +53,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrapdoor(ModBlocks.BLUE_OAK_TRAPDOOR);
         blockModelGenerators.createDoor(ModBlocks.BLUE_SPRUCE_DOOR);
         blockModelGenerators.createOrientableTrapdoor(ModBlocks.BLUE_SPRUCE_TRAPDOOR);
+
+        blockModelGenerators.family(ModBlocks.BLACK_PLANKS)
+                .stairs(ModBlocks.BLACK_WOOD_STAIRS)
+                .slab(ModBlocks.BLACK_WOOD_SLAB)
+                .button(ModBlocks.BLACK_WOOD_BUTTON)
+                .pressurePlate(ModBlocks.BLACK_WOOD_PRESSURE_PLATE)
+                .fence(ModBlocks.BLACK_WOOD_FENCE)
+                .fenceGate(ModBlocks.BLACK_WOOD_FENCE_GATE);
+
         blockModelGenerators.createDoor(ModBlocks.BLACK_ACACIA_DOOR);
         blockModelGenerators.createOrientableTrapdoor(ModBlocks.BLACK_ACACIA_TRAPDOOR);
         blockModelGenerators.createDoor(ModBlocks.BLACK_BIRCH_DOOR);
@@ -64,6 +73,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createDoor(ModBlocks.BLACK_OAK_DOOR);
         blockModelGenerators.createTrapdoor(ModBlocks.BLACK_OAK_TRAPDOOR);
         blockModelGenerators.createDoor(ModBlocks.BLACK_SPRUCE_DOOR);
+
+        blockModelGenerators.family(ModBlocks.BROWN_PLANKS)
+                .stairs(ModBlocks.BROWN_WOOD_STAIRS)
+                .slab(ModBlocks.BROWN_WOOD_SLAB)
+                .button(ModBlocks.BROWN_WOOD_BUTTON)
+                .pressurePlate(ModBlocks.BROWN_WOOD_PRESSURE_PLATE)
+                .fence(ModBlocks.BROWN_WOOD_FENCE)
+                .fenceGate(ModBlocks.BROWN_WOOD_FENCE_GATE);
+
         blockModelGenerators.createOrientableTrapdoor(ModBlocks.BLACK_SPRUCE_TRAPDOOR);
         blockModelGenerators.createDoor(ModBlocks.BROWN_ACACIA_DOOR);
         blockModelGenerators.createOrientableTrapdoor(ModBlocks.BROWN_ACACIA_TRAPDOOR);
@@ -77,6 +95,15 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrapdoor(ModBlocks.BROWN_OAK_TRAPDOOR);
         blockModelGenerators.createDoor(ModBlocks.BROWN_SPRUCE_DOOR);
         blockModelGenerators.createOrientableTrapdoor(ModBlocks.BROWN_SPRUCE_TRAPDOOR);
+
+        blockModelGenerators.family(ModBlocks.CYAN_PLANKS)
+                .stairs(ModBlocks.CYAN_WOOD_STAIRS)
+                .slab(ModBlocks.CYAN_WOOD_SLAB)
+                .button(ModBlocks.CYAN_WOOD_BUTTON)
+                .pressurePlate(ModBlocks.CYAN_WOOD_PRESSURE_PLATE)
+                .fence(ModBlocks.CYAN_WOOD_FENCE)
+                .fenceGate(ModBlocks.CYAN_WOOD_FENCE_GATE);
+
         blockModelGenerators.createDoor(ModBlocks.CYAN_ACACIA_DOOR);
         blockModelGenerators.createOrientableTrapdoor(ModBlocks.CYAN_ACACIA_TRAPDOOR);
         blockModelGenerators.createDoor(ModBlocks.CYAN_BIRCH_DOOR);
@@ -90,27 +117,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createDoor(ModBlocks.CYAN_SPRUCE_DOOR);
         blockModelGenerators.createOrientableTrapdoor(ModBlocks.CYAN_SPRUCE_TRAPDOOR);
 
-        blockModelGenerators.family(ModBlocks.BLACK_PLANKS)
-                .stairs(ModBlocks.BLACK_WOOD_STAIRS)
-                .slab(ModBlocks.BLACK_WOOD_SLAB)
-                .button(ModBlocks.BLACK_WOOD_BUTTON)
-                .pressurePlate(ModBlocks.BLACK_WOOD_PRESSURE_PLATE)
-                .fence(ModBlocks.BLACK_WOOD_FENCE)
-                .fenceGate(ModBlocks.BLACK_WOOD_FENCE_GATE);
-        blockModelGenerators.family(ModBlocks.BROWN_PLANKS)
-                .stairs(ModBlocks.BROWN_WOOD_STAIRS)
-                .slab(ModBlocks.BROWN_WOOD_SLAB)
-                .button(ModBlocks.BROWN_WOOD_BUTTON)
-                .pressurePlate(ModBlocks.BROWN_WOOD_PRESSURE_PLATE)
-                .fence(ModBlocks.BROWN_WOOD_FENCE)
-                .fenceGate(ModBlocks.BROWN_WOOD_FENCE_GATE);
-        blockModelGenerators.family(ModBlocks.CYAN_PLANKS)
-                .stairs(ModBlocks.CYAN_WOOD_STAIRS)
-                .slab(ModBlocks.CYAN_WOOD_SLAB)
-                .button(ModBlocks.CYAN_WOOD_BUTTON)
-                .pressurePlate(ModBlocks.CYAN_WOOD_PRESSURE_PLATE)
-                .fence(ModBlocks.CYAN_WOOD_FENCE)
-                .fenceGate(ModBlocks.CYAN_WOOD_FENCE_GATE);
         blockModelGenerators.family(ModBlocks.GRAY_PLANKS)
                 .stairs(ModBlocks.GRAY_WOOD_STAIRS)
                 .slab(ModBlocks.GRAY_WOOD_SLAB)
@@ -118,6 +124,20 @@ public class ModModelProvider extends FabricModelProvider {
                 .pressurePlate(ModBlocks.GRAY_WOOD_PRESSURE_PLATE)
                 .fence(ModBlocks.GRAY_WOOD_FENCE)
                 .fenceGate(ModBlocks.GRAY_WOOD_FENCE_GATE);
+
+        blockModelGenerators.createDoor(ModBlocks.GRAY_ACACIA_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.GRAY_ACACIA_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.GRAY_BIRCH_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.GRAY_BIRCH_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.GRAY_DARK_OAK_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.GRAY_DARK_OAK_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.GRAY_JUNGLE_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.GRAY_JUNGLE_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.GRAY_OAK_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.GRAY_OAK_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.GRAY_SPRUCE_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.GRAY_SPRUCE_TRAPDOOR);
+
         blockModelGenerators.family(ModBlocks.GREEN_PLANKS)
                 .stairs(ModBlocks.GREEN_WOOD_STAIRS)
                 .slab(ModBlocks.GREEN_WOOD_SLAB)
@@ -125,6 +145,9 @@ public class ModModelProvider extends FabricModelProvider {
                 .pressurePlate(ModBlocks.GREEN_WOOD_PRESSURE_PLATE)
                 .fence(ModBlocks.GREEN_WOOD_FENCE)
                 .fenceGate(ModBlocks.GREEN_WOOD_FENCE_GATE);
+
+
+
         blockModelGenerators.family(ModBlocks.LIGHT_BLUE_PLANKS)
                 .stairs(ModBlocks.LIGHT_BLUE_WOOD_STAIRS)
                 .slab(ModBlocks.LIGHT_BLUE_WOOD_SLAB)
