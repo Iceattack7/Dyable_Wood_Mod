@@ -146,7 +146,18 @@ public class ModModelProvider extends FabricModelProvider {
                 .fence(ModBlocks.GREEN_WOOD_FENCE)
                 .fenceGate(ModBlocks.GREEN_WOOD_FENCE_GATE);
 
-
+        blockModelGenerators.createDoor(ModBlocks.GREEN_ACACIA_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.GREEN_ACACIA_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.GREEN_BIRCH_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.GREEN_BIRCH_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.GREEN_DARK_OAK_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.GREEN_DARK_OAK_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.GREEN_JUNGLE_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.GREEN_JUNGLE_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.GREEN_OAK_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.GREEN_OAK_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.GREEN_SPRUCE_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.GREEN_SPRUCE_TRAPDOOR);
 
         blockModelGenerators.family(ModBlocks.LIGHT_BLUE_PLANKS)
                 .stairs(ModBlocks.LIGHT_BLUE_WOOD_STAIRS)
