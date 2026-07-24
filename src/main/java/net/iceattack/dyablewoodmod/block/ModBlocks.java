@@ -691,6 +691,48 @@ public class ModBlocks {
             properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
                     .noOcclusion()));
 
+    public static final Block LIGHT_GRAY_ACACIA_DOOR = registerBlock("light_gray_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final Block LIGHT_GRAY_ACACIA_TRAPDOOR = registerBlock("light_gray_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final Block LIGHT_GRAY_BIRCH_DOOR = registerBlock("light_gray_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final Block LIGHT_GRAY_BIRCH_TRAPDOOR = registerBlock("light_gray_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final Block LIGHT_GRAY_DARK_OAK_DOOR = registerBlock("light_gray_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final Block LIGHT_GRAY_DARK_OAK_TRAPDOOR = registerBlock("light_gray_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final Block LIGHT_GRAY_JUNGLE_DOOR = registerBlock("light_gray_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final Block LIGHT_GRAY_JUNGLE_TRAPDOOR = registerBlock("light_gray_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final Block LIGHT_GRAY_OAK_DOOR = registerBlock("light_gray_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final Block LIGHT_GRAY_OAK_TRAPDOOR = registerBlock("light_gray_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final Block LIGHT_GRAY_SPRUCE_DOOR = registerBlock("light_gray_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final Block LIGHT_GRAY_SPRUCE_TRAPDOOR = registerBlock("light_gray_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
 
     public static ResourceKey<Block> getRK(Block block) {
 
