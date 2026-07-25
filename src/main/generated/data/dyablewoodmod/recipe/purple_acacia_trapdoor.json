@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dyes/purple",
+    "minecraft:acacia_trapdoor"
+  ],
+  "result": {
+    "id": "dyablewoodmod:purple_acacia_trapdoor"
+  }
+}

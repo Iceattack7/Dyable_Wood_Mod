@@ -317,6 +317,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PINK_OAK_TRAPDOOR);
                         output.accept(ModBlocks.PINK_SPRUCE_DOOR);
                         output.accept(ModBlocks.PINK_SPRUCE_TRAPDOOR);
+                        output.accept(ModBlocks.PURPLE_ACACIA_DOOR);
+                        output.accept(ModBlocks.PURPLE_ACACIA_TRAPDOOR);
+                        output.accept(ModBlocks.PURPLE_BIRCH_DOOR);
+                        output.accept(ModBlocks.PURPLE_BIRCH_TRAPDOOR);
+                        output.accept(ModBlocks.PURPLE_DARK_OAK_DOOR);
+                        output.accept(ModBlocks.PURPLE_DARK_OAK_TRAPDOOR);
+                        output.accept(ModBlocks.PURPLE_JUNGLE_DOOR);
+                        output.accept(ModBlocks.PURPLE_JUNGLE_TRAPDOOR);
+                        output.accept(ModBlocks.PURPLE_OAK_DOOR);
+                        output.accept(ModBlocks.PURPLE_OAK_TRAPDOOR);
+                        output.accept(ModBlocks.PURPLE_SPRUCE_DOOR);
+                        output.accept(ModBlocks.PURPLE_SPRUCE_TRAPDOOR);
 
                     }).build());
 
