@@ -254,7 +254,19 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.LIME_OAK_DOOR))
                 .add(ModBlocks.getRK(ModBlocks.LIME_OAK_TRAPDOOR))
                 .add(ModBlocks.getRK(ModBlocks.LIME_SPRUCE_DOOR))
-                .add(ModBlocks.getRK(ModBlocks.LIME_SPRUCE_TRAPDOOR));
+                .add(ModBlocks.getRK(ModBlocks.LIME_SPRUCE_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_ACACIA_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_ACACIA_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_BIRCH_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_BIRCH_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_DARK_OAK_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_DARK_OAK_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_JUNGLE_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_JUNGLE_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_OAK_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_OAK_TRAPDOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_SPRUCE_DOOR))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_SPRUCE_TRAPDOOR));
 
         // Makes blocks mineable with pickaxe ^^^^
 
@@ -503,6 +515,18 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.LIME_OAK_TRAPDOOR));
         tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.LIME_SPRUCE_DOOR));
         tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.LIME_SPRUCE_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_ACACIA_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_ACACIA_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_BIRCH_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_BIRCH_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_DARK_OAK_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_DARK_OAK_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_JUNGLE_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_JUNGLE_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_OAK_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_OAK_TRAPDOOR));
+        tag(BlockTags.WOODEN_DOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_SPRUCE_DOOR));
+        tag(BlockTags.WOODEN_TRAPDOORS).add(ModBlocks.getRK(ModBlocks.MAGENTA_SPRUCE_TRAPDOOR));
 
 
 
