@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dyes/yellow",
+    "minecraft:spruce_trapdoor"
+  ],
+  "result": {
+    "id": "dyablewoodmod:yellow_spruce_trapdoor"
+  }
+}

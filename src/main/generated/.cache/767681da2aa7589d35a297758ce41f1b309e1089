@@ -1,11 +1,11 @@
 // 26.2	-999999999-01-01T00:00:00	Dyable Wood Mod/Tags for minecraft:block
 7405e8564266ddda10baa798d8e0704dde8785ef data/minecraft/tags/block/buttons.json
 4ffe66113e131f6cc138dab2667c5a9b11744d55 data/minecraft/tags/block/fence_gates.json
-423ee17a9294c5197cdceb1ef4fb86e938561b06 data/minecraft/tags/block/mineable/axe.json
+1ad5715b26d7658bd46855468e66b5d3fe460476 data/minecraft/tags/block/mineable/axe.json
 ff9ccf3d663eb23b657bede87496111735ffc21f data/minecraft/tags/block/planks.json
 d1014d0a9dcc17194238e489e2ab2d91f58e851a data/minecraft/tags/block/slabs.json
 3374ece69e6a6ef0057c384a811473da8ca72ad1 data/minecraft/tags/block/stairs.json
-1358e5a8b4ed9e39790d47d50df2b0be854bf1ad data/minecraft/tags/block/wooden_doors.json
+a76bc9c74e703e3c61fe443274c2d93224344681 data/minecraft/tags/block/wooden_doors.json
 24f98783f17ca64cc63de9a80efaf717ac5a235d data/minecraft/tags/block/wooden_fences.json
 464f5c74ded1402582f9decd3c1704589099f769 data/minecraft/tags/block/wooden_pressure_plates.json
-4d479e55043b76dc3a786ebd3eb1bdabb48c7e30 data/minecraft/tags/block/wooden_trapdoors.json
+60b03aaa740317b2b749c0e720d6d0edfef989ed data/minecraft/tags/block/wooden_trapdoors.json

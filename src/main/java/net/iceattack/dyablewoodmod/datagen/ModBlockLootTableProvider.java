@@ -318,6 +318,30 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.RED_OAK_TRAPDOOR);
         add(ModBlocks.RED_SPRUCE_DOOR, this::createDoorTable);
         dropSelf(ModBlocks.RED_SPRUCE_TRAPDOOR);
+        add(ModBlocks.WHITE_ACACIA_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.WHITE_ACACIA_TRAPDOOR);
+        add(ModBlocks.WHITE_BIRCH_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.WHITE_BIRCH_TRAPDOOR);
+        add(ModBlocks.WHITE_DARK_OAK_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.WHITE_DARK_OAK_TRAPDOOR);
+        add(ModBlocks.WHITE_JUNGLE_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.WHITE_JUNGLE_TRAPDOOR);
+        add(ModBlocks.WHITE_OAK_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.WHITE_OAK_TRAPDOOR);
+        add(ModBlocks.WHITE_SPRUCE_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.WHITE_SPRUCE_TRAPDOOR);
+        add(ModBlocks.YELLOW_ACACIA_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.YELLOW_ACACIA_TRAPDOOR);
+        add(ModBlocks.YELLOW_BIRCH_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.YELLOW_BIRCH_TRAPDOOR);
+        add(ModBlocks.YELLOW_DARK_OAK_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.YELLOW_DARK_OAK_TRAPDOOR);
+        add(ModBlocks.YELLOW_JUNGLE_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.YELLOW_JUNGLE_TRAPDOOR);
+        add(ModBlocks.YELLOW_OAK_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.YELLOW_OAK_TRAPDOOR);
+        add(ModBlocks.YELLOW_SPRUCE_DOOR, this::createDoorTable);
+        dropSelf(ModBlocks.YELLOW_SPRUCE_TRAPDOOR);
 
 
     }

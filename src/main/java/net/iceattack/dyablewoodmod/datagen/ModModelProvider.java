@@ -355,6 +355,20 @@ public class ModModelProvider extends FabricModelProvider {
                 .pressurePlate(ModBlocks.WHITE_WOOD_PRESSURE_PLATE)
                 .fence(ModBlocks.WHITE_WOOD_FENCE)
                 .fenceGate(ModBlocks.WHITE_WOOD_FENCE_GATE);
+
+        blockModelGenerators.createDoor(ModBlocks.WHITE_ACACIA_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.WHITE_ACACIA_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.WHITE_BIRCH_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.WHITE_BIRCH_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.WHITE_DARK_OAK_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.WHITE_DARK_OAK_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.WHITE_JUNGLE_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.WHITE_JUNGLE_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.WHITE_OAK_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.WHITE_OAK_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.WHITE_SPRUCE_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.WHITE_SPRUCE_TRAPDOOR);
+
         blockModelGenerators.family(ModBlocks.YELLOW_PLANKS)
                 .stairs(ModBlocks.YELLOW_WOOD_STAIRS)
                 .slab(ModBlocks.YELLOW_WOOD_SLAB)
@@ -362,6 +376,19 @@ public class ModModelProvider extends FabricModelProvider {
                 .pressurePlate(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE)
                 .fence(ModBlocks.YELLOW_WOOD_FENCE)
                 .fenceGate(ModBlocks.YELLOW_WOOD_FENCE_GATE);
+
+        blockModelGenerators.createDoor(ModBlocks.YELLOW_ACACIA_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.YELLOW_ACACIA_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.YELLOW_BIRCH_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.YELLOW_BIRCH_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.YELLOW_DARK_OAK_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.YELLOW_DARK_OAK_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.YELLOW_JUNGLE_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.YELLOW_JUNGLE_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.YELLOW_OAK_DOOR);
+        blockModelGenerators.createTrapdoor(ModBlocks.YELLOW_OAK_TRAPDOOR);
+        blockModelGenerators.createDoor(ModBlocks.YELLOW_SPRUCE_DOOR);
+        blockModelGenerators.createOrientableTrapdoor(ModBlocks.YELLOW_SPRUCE_TRAPDOOR);
 
     }
 

@@ -1516,6 +1516,78 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
 
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_ACACIA_DOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.ACACIA_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_ACACIA_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.ACACIA_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_BIRCH_DOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.BIRCH_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_BIRCH_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.BIRCH_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_DARK_OAK_DOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.DARK_OAK_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_DARK_OAK_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.DARK_OAK_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_JUNGLE_DOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.JUNGLE_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_JUNGLE_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.JUNGLE_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_OAK_DOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.OAK_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_OAK_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.OAK_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_SPRUCE_DOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.SPRUCE_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.WHITE_SPRUCE_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .requires(Blocks.SPRUCE_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
                 stairBuilder(ModBlocks.YELLOW_WOOD_STAIRS, Ingredient.of(ModBlocks.YELLOW_PLANKS))
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
@@ -1532,6 +1604,78 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
 
                 fenceGateBuilder(ModBlocks.YELLOW_WOOD_FENCE_GATE, Ingredient.of(ModBlocks.YELLOW_PLANKS))
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_ACACIA_DOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.ACACIA_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_ACACIA_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.ACACIA_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_BIRCH_DOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.BIRCH_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_BIRCH_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.BIRCH_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_DARK_OAK_DOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.DARK_OAK_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_DARK_OAK_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.DARK_OAK_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_JUNGLE_DOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.JUNGLE_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_JUNGLE_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.JUNGLE_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_OAK_DOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.OAK_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_OAK_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.OAK_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_SPRUCE_DOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.SPRUCE_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.YELLOW_SPRUCE_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.YELLOW_DYES)
+                        .requires(Blocks.SPRUCE_TRAPDOOR)
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
 

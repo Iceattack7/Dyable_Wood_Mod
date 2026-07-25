@@ -341,6 +341,30 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RED_OAK_TRAPDOOR);
                         output.accept(ModBlocks.RED_SPRUCE_DOOR);
                         output.accept(ModBlocks.RED_SPRUCE_TRAPDOOR);
+                        output.accept(ModBlocks.WHITE_ACACIA_DOOR);
+                        output.accept(ModBlocks.WHITE_ACACIA_TRAPDOOR);
+                        output.accept(ModBlocks.WHITE_BIRCH_DOOR);
+                        output.accept(ModBlocks.WHITE_BIRCH_TRAPDOOR);
+                        output.accept(ModBlocks.WHITE_DARK_OAK_DOOR);
+                        output.accept(ModBlocks.WHITE_DARK_OAK_TRAPDOOR);
+                        output.accept(ModBlocks.WHITE_JUNGLE_DOOR);
+                        output.accept(ModBlocks.WHITE_JUNGLE_TRAPDOOR);
+                        output.accept(ModBlocks.WHITE_OAK_DOOR);
+                        output.accept(ModBlocks.WHITE_OAK_TRAPDOOR);
+                        output.accept(ModBlocks.WHITE_SPRUCE_DOOR);
+                        output.accept(ModBlocks.WHITE_SPRUCE_TRAPDOOR);
+                        output.accept(ModBlocks.YELLOW_ACACIA_DOOR);
+                        output.accept(ModBlocks.YELLOW_ACACIA_TRAPDOOR);
+                        output.accept(ModBlocks.YELLOW_BIRCH_DOOR);
+                        output.accept(ModBlocks.YELLOW_BIRCH_TRAPDOOR);
+                        output.accept(ModBlocks.YELLOW_DARK_OAK_DOOR);
+                        output.accept(ModBlocks.YELLOW_DARK_OAK_TRAPDOOR);
+                        output.accept(ModBlocks.YELLOW_JUNGLE_DOOR);
+                        output.accept(ModBlocks.YELLOW_JUNGLE_TRAPDOOR);
+                        output.accept(ModBlocks.YELLOW_OAK_DOOR);
+                        output.accept(ModBlocks.YELLOW_OAK_TRAPDOOR);
+                        output.accept(ModBlocks.YELLOW_SPRUCE_DOOR);
+                        output.accept(ModBlocks.YELLOW_SPRUCE_TRAPDOOR);
 
                     }).build());
 

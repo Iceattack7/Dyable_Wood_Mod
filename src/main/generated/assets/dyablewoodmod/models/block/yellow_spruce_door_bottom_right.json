@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "dyablewoodmod:block/yellow_spruce_door_bottom",
+    "top": "dyablewoodmod:block/yellow_spruce_door_top"
+  }
+}

@@ -89,6 +89,18 @@
     "dyablewoodmod:red_dark_oak_door",
     "dyablewoodmod:red_jungle_door",
     "dyablewoodmod:red_oak_door",
-    "dyablewoodmod:red_spruce_door"
+    "dyablewoodmod:red_spruce_door",
+    "dyablewoodmod:white_acacia_door",
+    "dyablewoodmod:white_birch_door",
+    "dyablewoodmod:white_dark_oak_door",
+    "dyablewoodmod:white_jungle_door",
+    "dyablewoodmod:white_oak_door",
+    "dyablewoodmod:white_spruce_door",
+    "dyablewoodmod:yellow_acacia_door",
+    "dyablewoodmod:yellow_birch_door",
+    "dyablewoodmod:yellow_dark_oak_door",
+    "dyablewoodmod:yellow_jungle_door",
+    "dyablewoodmod:yellow_oak_door",
+    "dyablewoodmod:yellow_spruce_door"
   ]
 }
