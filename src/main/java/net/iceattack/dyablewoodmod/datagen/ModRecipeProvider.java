@@ -1425,6 +1425,78 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
 
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_ACACIA_DOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.ACACIA_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_ACACIA_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.ACACIA_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_BIRCH_DOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.BIRCH_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_BIRCH_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.BIRCH_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_DARK_OAK_DOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.DARK_OAK_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_DARK_OAK_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.DARK_OAK_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_JUNGLE_DOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.JUNGLE_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_JUNGLE_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.JUNGLE_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_OAK_DOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.OAK_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_OAK_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.OAK_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_SPRUCE_DOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.SPRUCE_DOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
+                shapeless(RecipeCategory.MISC, ModBlocks.RED_SPRUCE_TRAPDOOR, 1)
+                        .requires(ConventionalItemTags.RED_DYES)
+                        .requires(Blocks.SPRUCE_TRAPDOOR)
+                        .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                        .save(output);
+
                 stairBuilder(ModBlocks.WHITE_WOOD_STAIRS, Ingredient.of(ModBlocks.WHITE_PLANKS))
                         .unlockedBy("has_planks", has(ItemTags.PLANKS))
                         .save(output);
