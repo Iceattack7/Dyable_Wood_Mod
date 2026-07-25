@@ -29,6 +29,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             public void buildRecipes() {
 
 
+                shapeless(RecipeCategory.MISC, ModItems.LIGHT_PURPLE_DYE, 1)
+                        .requires(ConventionalItemTags.PURPLE_DYES)
+                        .requires(ConventionalItemTags.WHITE_DYES)
+                        .unlockedBy(getHasName(Items.RED_TULIP), has(Items.RED_TULIP))
+                        .save(output);
+
                 shapeless(RecipeCategory.MISC, ModBlocks.LIGHT_PURPLE_PLANKS, 1)
                         .requires(ModItems.LIGHT_PURPLE_DYE)
                         .requires(ItemTags.PLANKS)
