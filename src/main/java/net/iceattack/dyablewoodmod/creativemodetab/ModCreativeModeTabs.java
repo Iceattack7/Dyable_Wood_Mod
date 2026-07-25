@@ -157,7 +157,7 @@ public class ModCreativeModeTabs {
 
     public static final CreativeModeTab DYABLE_DOOR_TAB = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
             Identifier.fromNamespaceAndPath(DyableWoodMod.MOD_ID, "dyable_doors"),
-            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.GREEN_OAK_DOOR))
+            FabricCreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.LIGHT_BLUE_OAK_DOOR))
                     .title(Component.translatable("creativemodetab.dyablewoodmod.dyable_doors"))
                     .displayItems((parameters, output) -> {
 
@@ -269,6 +269,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LIGHT_PURPLE_OAK_TRAPDOOR);
                         output.accept(ModBlocks.LIGHT_PURPLE_SPRUCE_DOOR);
                         output.accept(ModBlocks.LIGHT_PURPLE_SPRUCE_TRAPDOOR);
+                        output.accept(ModBlocks.LIME_ACACIA_DOOR);
+                        output.accept(ModBlocks.LIME_ACACIA_TRAPDOOR);
+                        output.accept(ModBlocks.LIME_BIRCH_DOOR);
+                        output.accept(ModBlocks.LIME_BIRCH_TRAPDOOR);
+                        output.accept(ModBlocks.LIME_DARK_OAK_DOOR);
+                        output.accept(ModBlocks.LIME_DARK_OAK_TRAPDOOR);
+                        output.accept(ModBlocks.LIME_JUNGLE_DOOR);
+                        output.accept(ModBlocks.LIME_JUNGLE_TRAPDOOR);
+                        output.accept(ModBlocks.LIME_OAK_DOOR);
+                        output.accept(ModBlocks.LIME_OAK_TRAPDOOR);
+                        output.accept(ModBlocks.LIME_SPRUCE_DOOR);
+                        output.accept(ModBlocks.LIME_SPRUCE_TRAPDOOR);
 
                     }).build());
 
