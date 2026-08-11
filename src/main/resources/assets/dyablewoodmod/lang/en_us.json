@@ -1,0 +1,13 @@
+{
+  "itemGroup.dyablewoodmod": "Example Mod Tab",
+  "block.dyablewoodmod.example_block": "Example Block",
+  "item.dyablewoodmod.example_item": "Example Item",
+
+  "dyablewoodmod.configuration.title": "Dyable Wood Mod Configs",
+  "dyablewoodmod.configuration.section.dyablewoodmod.common.toml": "Dyable Wood Mod Configs",
+  "dyablewoodmod.configuration.section.dyablewoodmod.common.toml.title": "Dyable Wood Mod Configs",
+  "dyablewoodmod.configuration.items": "Item List",
+  "dyablewoodmod.configuration.logDirtBlock": "Log Dirt Block",
+  "dyablewoodmod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "dyablewoodmod.configuration.magicNumber": "Magic Number"
+}
