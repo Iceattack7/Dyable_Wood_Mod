@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "dyablewoodmod:item/red_jungle_door"
-  }
-}

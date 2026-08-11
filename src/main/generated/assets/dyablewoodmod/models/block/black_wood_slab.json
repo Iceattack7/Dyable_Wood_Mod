@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "dyablewoodmod:block/black_planks",
-    "side": "dyablewoodmod:block/black_planks",
-    "top": "dyablewoodmod:block/black_planks"
-  }
-}

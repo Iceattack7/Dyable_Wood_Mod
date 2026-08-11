@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "dyablewoodmod:block/blue_planks"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_right",
-  "textures": {
-    "bottom": "dyablewoodmod:block/lime_dark_oak_door_bottom",
-    "top": "dyablewoodmod:block/lime_dark_oak_door_top"
-  }
-}

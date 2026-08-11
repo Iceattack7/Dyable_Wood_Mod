@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_inventory",
-  "textures": {
-    "texture": "dyablewoodmod:block/brown_planks"
-  }
-}

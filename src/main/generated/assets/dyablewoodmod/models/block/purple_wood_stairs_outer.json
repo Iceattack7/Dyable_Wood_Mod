@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "dyablewoodmod:block/purple_planks",
-    "side": "dyablewoodmod:block/purple_planks",
-    "top": "dyablewoodmod:block/purple_planks"
-  }
-}
