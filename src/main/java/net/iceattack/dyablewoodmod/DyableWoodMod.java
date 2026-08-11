@@ -1,5 +1,6 @@
 package net.iceattack.dyablewoodmod;
 
+import net.iceattack.dyablewoodmod.creativemodetab.ModCreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import org.slf4j.Logger;
 
@@ -36,6 +37,8 @@ public class DyableWoodMod {
     public DyableWoodMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
