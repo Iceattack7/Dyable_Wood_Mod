@@ -1,5 +1,6 @@
 package net.iceattack.dyablewoodmod;
 
+import net.minecraft.world.item.CreativeModeTab;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -16,6 +17,10 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.iceattack.dyablewoodmod.item.ModItems;
+
+import javax.naming.directory.ModificationItem;
+
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(DyableWoodMod.MOD_ID)
@@ -31,6 +36,8 @@ public class DyableWoodMod {
     public DyableWoodMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModItems.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (DyableWoodMod) to respond directly to events.
@@ -50,7 +57,9 @@ public class DyableWoodMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.LIGHT_PURPLE_DYE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
