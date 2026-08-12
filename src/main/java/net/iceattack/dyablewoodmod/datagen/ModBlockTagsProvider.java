@@ -35,24 +35,6 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.WHITE_PLANKS.get()))
                 .add(ModBlocks.getRK(ModBlocks.YELLOW_PLANKS.get()));
 
-        tag(BlockTags.PLANKS)
-                .add(ModBlocks.getRK(ModBlocks.BLUE_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.BLACK_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.BROWN_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.CYAN_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.GRAY_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.GREEN_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.LIGHT_BLUE_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.LIGHT_GRAY_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.LIGHT_PURPLE_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.LIME_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.MAGENTA_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.ORANGE_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.PINK_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.PURPLE_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.RED_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.WHITE_PLANKS.get()))
-                .add(ModBlocks.getRK(ModBlocks.YELLOW_PLANKS.get()));
 
     }
 }
