@@ -31,6 +31,22 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.dyablewoodmod.dyable_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BLUE_PLANKS);
+                        output.accept(ModBlocks.BLACK_PLANKS);
+                        output.accept(ModBlocks.BROWN_PLANKS);
+                        output.accept(ModBlocks.CYAN_PLANKS);
+                        output.accept(ModBlocks.GRAY_PLANKS);
+                        output.accept(ModBlocks.GREEN_PLANKS);
+                        output.accept(ModBlocks.LIGHT_BLUE_PLANKS);
+                        output.accept(ModBlocks.LIGHT_GRAY_PLANKS);
+                        output.accept(ModBlocks.LIGHT_PURPLE_PLANKS);
+                        output.accept(ModBlocks.LIME_PLANKS);
+                        output.accept(ModBlocks.MAGENTA_PLANKS);
+                        output.accept(ModBlocks.ORANGE_PLANKS);
+                        output.accept(ModBlocks.PINK_PLANKS);
+                        output.accept(ModBlocks.PURPLE_PLANKS);
+                        output.accept(ModBlocks.RED_PLANKS);
+                        output.accept(ModBlocks.WHITE_PLANKS);
+                        output.accept(ModBlocks.YELLOW_PLANKS);
 
 
                     }).build());

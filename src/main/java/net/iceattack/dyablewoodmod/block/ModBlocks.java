@@ -20,6 +20,69 @@ public class ModBlocks {
             properties -> new Block(properties.strength(2.0f, 3.0f)
                     .sound(SoundType.WOOD)));
 
+    public static final DeferredBlock<Block> BLACK_PLANKS = registerBlock("black_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> BROWN_PLANKS = registerBlock("brown_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> CYAN_PLANKS = registerBlock("cyan_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> GRAY_PLANKS = registerBlock("gray_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> GREEN_PLANKS = registerBlock("green_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> LIGHT_BLUE_PLANKS = registerBlock("light_blue_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> LIGHT_GRAY_PLANKS = registerBlock("light_gray_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> LIGHT_PURPLE_PLANKS = registerBlock("light_purple_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> LIME_PLANKS = registerBlock("lime_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> MAGENTA_PLANKS = registerBlock("magenta_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> ORANGE_PLANKS = registerBlock("orange_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> PINK_PLANKS = registerBlock("pink_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> PURPLE_PLANKS = registerBlock("purple_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> RED_PLANKS = registerBlock("red_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> WHITE_PLANKS = registerBlock("white_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> YELLOW_PLANKS = registerBlock("yellow_planks",
+            properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);
