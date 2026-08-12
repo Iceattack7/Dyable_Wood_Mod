@@ -3,6 +3,7 @@ package net.iceattack.dyablewoodmod;
 import net.iceattack.dyablewoodmod.datagen.ModBlockLootTableProvider;
 import net.iceattack.dyablewoodmod.datagen.ModBlockTagsProvider;
 import net.iceattack.dyablewoodmod.datagen.ModModelProvider;
+import net.iceattack.dyablewoodmod.datagen.ModRecipeProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
@@ -27,6 +28,8 @@ public class DyableWoodModDataGen {
         generator.addProvider(true, new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new,
                         LootContextParamSets.BLOCK)), lookupProvider));
+
+        generator.addProvider(true, new ModRecipeProvider.Runner(packOutput, lookupProvider));
 
 
     }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dyes/purple",
+    "#c:dyes/white"
+  ],
+  "result": {
+    "count": 9,
+    "id": "dyablewoodmod:light_purple_dye"
+  }
+}

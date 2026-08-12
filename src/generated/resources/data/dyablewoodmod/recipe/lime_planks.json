@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dyes/lime",
+    "#minecraft:planks"
+  ],
+  "result": {
+    "id": "dyablewoodmod:lime_planks"
+  }
+}
