@@ -2,6 +2,8 @@ package net.iceattack.dyablewoodmod.block;
 
 import net.iceattack.dyablewoodmod.DyableWoodMod;
 import net.iceattack.dyablewoodmod.item.ModItems;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -83,6 +85,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> YELLOW_PLANKS = registerBlock("yellow_planks",
             properties -> new Block(properties.strength(2.0f, 3.0f)
                     .sound(SoundType.WOOD)));
+
+    public static ResourceKey<Block> getRK(Block block) {
+        return BuiltInRegistries.BLOCK.getResourceKey(block).get();
+    }
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);
