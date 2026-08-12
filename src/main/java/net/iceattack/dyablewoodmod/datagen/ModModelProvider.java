@@ -1,6 +1,7 @@
 package net.iceattack.dyablewoodmod.datagen;
 
 import net.iceattack.dyablewoodmod.DyableWoodMod;
+import net.iceattack.dyablewoodmod.block.ModBlocks;
 import net.iceattack.dyablewoodmod.item.ModItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
@@ -17,6 +18,6 @@ public class ModModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         itemModels.generateFlatItem(ModItems.LIGHT_PURPLE_DYE.get(), ModelTemplates.FLAT_ITEM);
 
-
+        blockModels.createTrivialCube(ModBlocks.BLUE_PLANKS.get());
     }
 }

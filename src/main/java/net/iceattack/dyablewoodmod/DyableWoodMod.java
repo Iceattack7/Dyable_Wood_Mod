@@ -1,5 +1,6 @@
 package net.iceattack.dyablewoodmod;
 
+import net.iceattack.dyablewoodmod.block.ModBlocks;
 import net.iceattack.dyablewoodmod.creativemodetab.ModCreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import org.slf4j.Logger;
@@ -41,6 +42,7 @@ public class DyableWoodMod {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (DyableWoodMod) to respond directly to events.

@@ -1,6 +1,7 @@
 package net.iceattack.dyablewoodmod.creativemodetab;
 
 import net.iceattack.dyablewoodmod.DyableWoodMod;
+import net.iceattack.dyablewoodmod.block.ModBlocks;
 import net.iceattack.dyablewoodmod.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -26,10 +27,10 @@ public class ModCreativeModeTabs {
 
 
     public static final Supplier<CreativeModeTab> DYABLE_BLOCK_TAB = CREATIVE_MODE_TABS.register("dyable_blocks",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LIGHT_PURPLE_DYE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BLUE_PLANKS.get()))
                     .title(Component.translatable("creativetab.dyablewoodmod.dyable_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-
+                        output.accept(ModBlocks.BLUE_PLANKS);
 
 
                     }).build());
