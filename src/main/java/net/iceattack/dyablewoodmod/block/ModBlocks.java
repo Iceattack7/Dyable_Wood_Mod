@@ -5,11 +5,12 @@ import net.iceattack.dyablewoodmod.item.ModItems;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -190,6 +191,14 @@ public class ModBlocks {
     public static final DeferredBlock<Block> YELLOW_WOOD_SLAB = registerBlock("yellow_wood_slab",
             properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
                     .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> BLUE_WOOD_PRESSURE_PLATE = registerBlock("blue_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_BLUE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> BLUE_WOOD_BUTTON = registerBlock("blue_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
 
     public static ResourceKey<Block> getRK(Block block) {
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();

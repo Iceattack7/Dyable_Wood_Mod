@@ -38,7 +38,9 @@ public class ModModelProvider extends ModelProvider {
 
         blockModels.family(ModBlocks.BLUE_PLANKS.get())
                 .stairs(ModBlocks.BLUE_WOOD_STAIRS.get())
-                .slab(ModBlocks.BLUE_WOOD_SLAB.get());
+                .slab(ModBlocks.BLUE_WOOD_SLAB.get())
+                .button(ModBlocks.BLUE_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.BLUE_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.BLACK_PLANKS.get())
                 .stairs(ModBlocks.BLACK_WOOD_STAIRS.get())

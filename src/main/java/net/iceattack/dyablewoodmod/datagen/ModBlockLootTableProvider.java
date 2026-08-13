@@ -71,6 +71,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.YELLOW_WOOD_STAIRS.get());
         add(ModBlocks.YELLOW_WOOD_SLAB.get(), this::createSlabItemTable);
 
+        dropSelf(ModBlocks.BLUE_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.BLUE_WOOD_BUTTON.get());
+
 
     }
 
