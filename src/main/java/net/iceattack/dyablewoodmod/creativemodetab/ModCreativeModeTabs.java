@@ -48,6 +48,43 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WHITE_PLANKS);
                         output.accept(ModBlocks.YELLOW_PLANKS);
 
+                        output.accept(ModBlocks.BLUE_WOOD_STAIRS);
+                        output.accept(ModBlocks.BLUE_WOOD_SLAB);
+                        output.accept(ModBlocks.BLACK_WOOD_STAIRS);
+                        output.accept(ModBlocks.BLACK_WOOD_SLAB);
+                        output.accept(ModBlocks.BROWN_WOOD_STAIRS);
+                        output.accept(ModBlocks.BROWN_WOOD_SLAB);
+                        output.accept(ModBlocks.CYAN_WOOD_STAIRS);
+                        output.accept(ModBlocks.CYAN_WOOD_SLAB);
+                        output.accept(ModBlocks.GRAY_WOOD_STAIRS);
+                        output.accept(ModBlocks.GRAY_WOOD_SLAB);
+                        output.accept(ModBlocks.GREEN_WOOD_STAIRS);
+                        output.accept(ModBlocks.GREEN_WOOD_SLAB);
+                        output.accept(ModBlocks.LIGHT_BLUE_WOOD_STAIRS);
+                        output.accept(ModBlocks.LIGHT_BLUE_WOOD_SLAB);
+                        output.accept(ModBlocks.LIGHT_GRAY_WOOD_STAIRS);
+                        output.accept(ModBlocks.LIGHT_GRAY_WOOD_SLAB);
+                        output.accept(ModBlocks.LIGHT_PURPLE_WOOD_STAIRS);
+                        output.accept(ModBlocks.LIGHT_PURPLE_WOOD_SLAB);
+                        output.accept(ModBlocks.LIME_WOOD_STAIRS);
+                        output.accept(ModBlocks.LIME_WOOD_SLAB);
+                        output.accept(ModBlocks.MAGENTA_WOOD_STAIRS);
+                        output.accept(ModBlocks.MAGENTA_WOOD_SLAB);
+                        output.accept(ModBlocks.ORANGE_WOOD_STAIRS);
+                        output.accept(ModBlocks.ORANGE_WOOD_SLAB);
+                        output.accept(ModBlocks.PINK_WOOD_STAIRS);
+                        output.accept(ModBlocks.PINK_WOOD_SLAB);
+                        output.accept(ModBlocks.PURPLE_WOOD_STAIRS);
+                        output.accept(ModBlocks.PURPLE_WOOD_SLAB);
+                        output.accept(ModBlocks.RED_WOOD_STAIRS);
+                        output.accept(ModBlocks.RED_WOOD_SLAB);
+                        output.accept(ModBlocks.WHITE_WOOD_STAIRS);
+                        output.accept(ModBlocks.WHITE_WOOD_SLAB);
+                        output.accept(ModBlocks.YELLOW_WOOD_STAIRS);
+                        output.accept(ModBlocks.YELLOW_WOOD_SLAB);
+
+
+
 
                     }).build());
 

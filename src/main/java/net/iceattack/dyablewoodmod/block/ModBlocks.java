@@ -6,7 +6,9 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -84,6 +86,109 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> YELLOW_PLANKS = registerBlock("yellow_planks",
             properties -> new Block(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+
+    public static final DeferredBlock<Block> BLUE_WOOD_STAIRS = registerBlock("blue_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> BLUE_WOOD_SLAB = registerBlock("blue_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> BLACK_WOOD_STAIRS = registerBlock("black_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> BLACK_WOOD_SLAB = registerBlock("black_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> BROWN_WOOD_STAIRS = registerBlock("brown_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> BROWN_WOOD_SLAB = registerBlock("brown_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> CYAN_WOOD_STAIRS = registerBlock("cyan_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> CYAN_WOOD_SLAB = registerBlock("cyan_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> GRAY_WOOD_STAIRS = registerBlock("gray_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> GRAY_WOOD_SLAB = registerBlock("gray_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> GREEN_WOOD_STAIRS = registerBlock("green_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> GREEN_WOOD_SLAB = registerBlock("green_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> LIGHT_BLUE_WOOD_STAIRS = registerBlock("light_blue_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> LIGHT_BLUE_WOOD_SLAB = registerBlock("light_blue_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> LIGHT_GRAY_WOOD_STAIRS = registerBlock("light_gray_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> LIGHT_GRAY_WOOD_SLAB = registerBlock("light_gray_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_WOOD_STAIRS = registerBlock("light_purple_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_WOOD_SLAB = registerBlock("light_purple_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> LIME_WOOD_STAIRS = registerBlock("lime_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> LIME_WOOD_SLAB = registerBlock("lime_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> MAGENTA_WOOD_STAIRS = registerBlock("magenta_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> MAGENTA_WOOD_SLAB = registerBlock("magenta_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> ORANGE_WOOD_STAIRS = registerBlock("orange_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> ORANGE_WOOD_SLAB = registerBlock("orange_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> PINK_WOOD_STAIRS = registerBlock("pink_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> PINK_WOOD_SLAB = registerBlock("pink_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> PURPLE_WOOD_STAIRS = registerBlock("purple_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> PURPLE_WOOD_SLAB = registerBlock("purple_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> RED_WOOD_STAIRS = registerBlock("red_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> RED_WOOD_SLAB = registerBlock("red_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> WHITE_WOOD_STAIRS = registerBlock("white_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> WHITE_WOOD_SLAB = registerBlock("white_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
+                    .sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> YELLOW_WOOD_STAIRS = registerBlock("yellow_wood_stairs",
+            properties -> new StairBlock(ModBlocks.BLUE_PLANKS.get().defaultBlockState(),
+                    properties.strength(2.0f, 3.0f).sound(SoundType.WOOD)));
+    public static final DeferredBlock<Block> YELLOW_WOOD_SLAB = registerBlock("yellow_wood_slab",
+            properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
                     .sound(SoundType.WOOD)));
 
     public static ResourceKey<Block> getRK(Block block) {

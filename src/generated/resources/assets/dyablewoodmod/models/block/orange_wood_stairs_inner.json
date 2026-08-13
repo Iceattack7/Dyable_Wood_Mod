@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dyablewoodmod:block/orange_planks",
+    "side": "dyablewoodmod:block/orange_planks",
+    "top": "dyablewoodmod:block/orange_planks"
+  }
+}

@@ -35,6 +35,43 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RED_PLANKS.get());
         dropSelf(ModBlocks.WHITE_PLANKS.get());
         dropSelf(ModBlocks.YELLOW_PLANKS.get());
+
+        dropSelf(ModBlocks.BLUE_WOOD_STAIRS.get());
+        add(ModBlocks.BLUE_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.BLACK_WOOD_STAIRS.get());
+        add(ModBlocks.BLACK_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.BROWN_WOOD_STAIRS.get());
+        add(ModBlocks.BROWN_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.CYAN_WOOD_STAIRS.get());
+        add(ModBlocks.CYAN_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.GRAY_WOOD_STAIRS.get());
+        add(ModBlocks.GRAY_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.GREEN_WOOD_STAIRS.get());
+        add(ModBlocks.GREEN_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.LIGHT_BLUE_WOOD_STAIRS.get());
+        add(ModBlocks.LIGHT_BLUE_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.LIGHT_GRAY_WOOD_STAIRS.get());
+        add(ModBlocks.LIGHT_GRAY_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.LIGHT_PURPLE_WOOD_STAIRS.get());
+        add(ModBlocks.LIGHT_PURPLE_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.LIME_WOOD_STAIRS.get());
+        add(ModBlocks.LIME_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.MAGENTA_WOOD_STAIRS.get());
+        add(ModBlocks.MAGENTA_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.ORANGE_WOOD_STAIRS.get());
+        add(ModBlocks.ORANGE_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.PINK_WOOD_STAIRS.get());
+        add(ModBlocks.PINK_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.PURPLE_WOOD_STAIRS.get());
+        add(ModBlocks.PURPLE_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.RED_WOOD_STAIRS.get());
+        add(ModBlocks.RED_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.WHITE_WOOD_STAIRS.get());
+        add(ModBlocks.WHITE_WOOD_SLAB.get(), this::createSlabItemTable);
+        dropSelf(ModBlocks.YELLOW_WOOD_STAIRS.get());
+        add(ModBlocks.YELLOW_WOOD_SLAB.get(), this::createSlabItemTable);
+
+
     }
 
     @Override

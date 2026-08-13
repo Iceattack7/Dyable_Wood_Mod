@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dyablewoodmod:block/yellow_wood_slab"
+    },
+    "type=double": {
+      "model": "dyablewoodmod:block/yellow_planks"
+    },
+    "type=top": {
+      "model": "dyablewoodmod:block/yellow_wood_slab_top"
+    }
+  }
+}
