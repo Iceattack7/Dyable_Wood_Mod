@@ -44,66 +44,98 @@ public class ModModelProvider extends ModelProvider {
 
         blockModels.family(ModBlocks.BLACK_PLANKS.get())
                 .stairs(ModBlocks.BLACK_WOOD_STAIRS.get())
-                .slab(ModBlocks.BLACK_WOOD_SLAB.get());
+                .slab(ModBlocks.BLACK_WOOD_SLAB.get())
+                .button(ModBlocks.BLACK_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.BLACK_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.BROWN_PLANKS.get())
                 .stairs(ModBlocks.BROWN_WOOD_STAIRS.get())
-                .slab(ModBlocks.BROWN_WOOD_SLAB.get());
+                .slab(ModBlocks.BROWN_WOOD_SLAB.get())
+                .button(ModBlocks.BROWN_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.BROWN_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.CYAN_PLANKS.get())
                 .stairs(ModBlocks.CYAN_WOOD_STAIRS.get())
-                .slab(ModBlocks.CYAN_WOOD_SLAB.get());
+                .slab(ModBlocks.CYAN_WOOD_SLAB.get())
+                .button(ModBlocks.CYAN_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.CYAN_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.GRAY_PLANKS.get())
                 .stairs(ModBlocks.GRAY_WOOD_STAIRS.get())
-                .slab(ModBlocks.GRAY_WOOD_SLAB.get());
+                .slab(ModBlocks.GRAY_WOOD_SLAB.get())
+                .button(ModBlocks.GRAY_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.GRAY_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.GREEN_PLANKS.get())
                 .stairs(ModBlocks.GREEN_WOOD_STAIRS.get())
-                .slab(ModBlocks.GREEN_WOOD_SLAB.get());
+                .slab(ModBlocks.GREEN_WOOD_SLAB.get())
+                .button(ModBlocks.GREEN_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.GREEN_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.LIGHT_BLUE_PLANKS.get())
                 .stairs(ModBlocks.LIGHT_BLUE_WOOD_STAIRS.get())
-                .slab(ModBlocks.LIGHT_BLUE_WOOD_SLAB.get());
+                .slab(ModBlocks.LIGHT_BLUE_WOOD_SLAB.get())
+                .button(ModBlocks.LIGHT_BLUE_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.LIGHT_BLUE_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.LIGHT_GRAY_PLANKS.get())
                 .stairs(ModBlocks.LIGHT_GRAY_WOOD_STAIRS.get())
-                .slab(ModBlocks.LIGHT_GRAY_WOOD_SLAB.get());
+                .slab(ModBlocks.LIGHT_GRAY_WOOD_SLAB.get())
+                .button(ModBlocks.LIGHT_GRAY_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.LIGHT_GRAY_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.LIGHT_PURPLE_PLANKS.get())
                 .stairs(ModBlocks.LIGHT_PURPLE_WOOD_STAIRS.get())
-                .slab(ModBlocks.LIGHT_PURPLE_WOOD_SLAB.get());
+                .slab(ModBlocks.LIGHT_PURPLE_WOOD_SLAB.get())
+                .button(ModBlocks.LIGHT_PURPLE_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.LIGHT_PURPLE_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.LIME_PLANKS.get())
                 .stairs(ModBlocks.LIME_WOOD_STAIRS.get())
-                .slab(ModBlocks.LIME_WOOD_SLAB.get());
+                .slab(ModBlocks.LIME_WOOD_SLAB.get())
+                .button(ModBlocks.LIME_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.LIME_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.MAGENTA_PLANKS.get())
                 .stairs(ModBlocks.MAGENTA_WOOD_STAIRS.get())
-                .slab(ModBlocks.MAGENTA_WOOD_SLAB.get());
+                .slab(ModBlocks.MAGENTA_WOOD_SLAB.get())
+                .button(ModBlocks.MAGENTA_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.MAGENTA_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.ORANGE_PLANKS.get())
                 .stairs(ModBlocks.ORANGE_WOOD_STAIRS.get())
-                .slab(ModBlocks.ORANGE_WOOD_SLAB.get());
+                .slab(ModBlocks.ORANGE_WOOD_SLAB.get())
+                .button(ModBlocks.ORANGE_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.ORANGE_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.PINK_PLANKS.get())
                 .stairs(ModBlocks.PINK_WOOD_STAIRS.get())
-                .slab(ModBlocks.PINK_WOOD_SLAB.get());
+                .slab(ModBlocks.PINK_WOOD_SLAB.get())
+                .button(ModBlocks.PINK_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.PINK_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.PURPLE_PLANKS.get())
                 .stairs(ModBlocks.PURPLE_WOOD_STAIRS.get())
-                .slab(ModBlocks.PURPLE_WOOD_SLAB.get());
+                .slab(ModBlocks.PURPLE_WOOD_SLAB.get())
+                .button(ModBlocks.PURPLE_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.PURPLE_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.RED_PLANKS.get())
                 .stairs(ModBlocks.RED_WOOD_STAIRS.get())
-                .slab(ModBlocks.RED_WOOD_SLAB.get());
+                .slab(ModBlocks.RED_WOOD_SLAB.get())
+                .button(ModBlocks.RED_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.RED_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.WHITE_PLANKS.get())
                 .stairs(ModBlocks.WHITE_WOOD_STAIRS.get())
-                .slab(ModBlocks.WHITE_WOOD_SLAB.get());
+                .slab(ModBlocks.WHITE_WOOD_SLAB.get())
+                .button(ModBlocks.WHITE_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.WHITE_WOOD_PRESSURE_PLATE.get());
 
         blockModels.family(ModBlocks.YELLOW_PLANKS.get())
                 .stairs(ModBlocks.YELLOW_WOOD_STAIRS.get())
-                .slab(ModBlocks.YELLOW_WOOD_SLAB.get());
+                .slab(ModBlocks.YELLOW_WOOD_SLAB.get())
+                .button(ModBlocks.YELLOW_WOOD_BUTTON.get())
+                .pressurePlate(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE.get());
     }
 }

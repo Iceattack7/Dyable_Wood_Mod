@@ -1,5 +1,21 @@
 {
   "values": [
-    "dyablewoodmod:blue_wood_button"
+    "dyablewoodmod:blue_wood_button",
+    "dyablewoodmod:black_wood_button",
+    "dyablewoodmod:brown_wood_button",
+    "dyablewoodmod:cyan_wood_button",
+    "dyablewoodmod:gray_wood_button",
+    "dyablewoodmod:green_wood_button",
+    "dyablewoodmod:light_blue_wood_button",
+    "dyablewoodmod:light_gray_wood_button",
+    "dyablewoodmod:light_purple_wood_button",
+    "dyablewoodmod:lime_wood_button",
+    "dyablewoodmod:magenta_wood_button",
+    "dyablewoodmod:orange_wood_button",
+    "dyablewoodmod:pink_wood_button",
+    "dyablewoodmod:purple_wood_button",
+    "dyablewoodmod:red_wood_button",
+    "dyablewoodmod:white_wood_button",
+    "dyablewoodmod:yellow_wood_button"
   ]
 }

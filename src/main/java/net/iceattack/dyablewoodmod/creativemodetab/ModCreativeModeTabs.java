@@ -85,6 +85,38 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.BLUE_WOOD_PRESSURE_PLATE);
                         output.accept(ModBlocks.BLUE_WOOD_BUTTON);
+                        output.accept(ModBlocks.BLACK_WOOD_BUTTON);
+                        output.accept(ModBlocks.BLACK_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.BROWN_WOOD_BUTTON);
+                        output.accept(ModBlocks.BROWN_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.CYAN_WOOD_BUTTON);
+                        output.accept(ModBlocks.CYAN_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.GRAY_WOOD_BUTTON);
+                        output.accept(ModBlocks.GRAY_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.GREEN_WOOD_BUTTON);
+                        output.accept(ModBlocks.GREEN_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.LIGHT_BLUE_WOOD_BUTTON);
+                        output.accept(ModBlocks.LIGHT_BLUE_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.LIGHT_GRAY_WOOD_BUTTON);
+                        output.accept(ModBlocks.LIGHT_GRAY_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.LIGHT_PURPLE_WOOD_BUTTON);
+                        output.accept(ModBlocks.LIGHT_PURPLE_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.LIME_WOOD_BUTTON);
+                        output.accept(ModBlocks.LIME_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.MAGENTA_WOOD_BUTTON);
+                        output.accept(ModBlocks.MAGENTA_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.ORANGE_WOOD_BUTTON);
+                        output.accept(ModBlocks.ORANGE_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.PINK_WOOD_BUTTON);
+                        output.accept(ModBlocks.PINK_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.PURPLE_WOOD_BUTTON);
+                        output.accept(ModBlocks.PURPLE_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.RED_WOOD_BUTTON);
+                        output.accept(ModBlocks.RED_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.WHITE_WOOD_BUTTON);
+                        output.accept(ModBlocks.WHITE_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.YELLOW_WOOD_BUTTON);
+                        output.accept(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE);
 
 
 

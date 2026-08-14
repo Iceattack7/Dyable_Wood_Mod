@@ -192,11 +192,124 @@ public class ModBlocks {
             properties -> new SlabBlock(properties.strength(2.0f, 3.0f)
                     .sound(SoundType.WOOD)));
 
+
     public static final DeferredBlock<Block> BLUE_WOOD_PRESSURE_PLATE = registerBlock("blue_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_BLUE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
                             .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
     public static final DeferredBlock<Block> BLUE_WOOD_BUTTON = registerBlock("blue_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> BLACK_WOOD_PRESSURE_PLATE = registerBlock("black_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_BLACK).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> BLACK_WOOD_BUTTON = registerBlock("black_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> BROWN_WOOD_PRESSURE_PLATE = registerBlock("brown_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_BROWN).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> BROWN_WOOD_BUTTON = registerBlock("brown_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> CYAN_WOOD_PRESSURE_PLATE = registerBlock("cyan_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_CYAN).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> CYAN_WOOD_BUTTON = registerBlock("cyan_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> GRAY_WOOD_PRESSURE_PLATE = registerBlock("gray_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_GRAY).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> GRAY_WOOD_BUTTON = registerBlock("gray_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> GREEN_WOOD_PRESSURE_PLATE = registerBlock("green_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_GRAY).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> GREEN_WOOD_BUTTON = registerBlock("green_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> LIGHT_BLUE_WOOD_PRESSURE_PLATE = registerBlock("light_blue_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_LIGHT_BLUE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> LIGHT_BLUE_WOOD_BUTTON = registerBlock("light_blue_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_WOOD_PRESSURE_PLATE = registerBlock("light_gray_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_LIGHT_GRAY).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> LIGHT_GRAY_WOOD_BUTTON = registerBlock("light_gray_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_WOOD_PRESSURE_PLATE = registerBlock("light_purple_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_PURPLE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_WOOD_BUTTON = registerBlock("light_purple_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> LIME_WOOD_PRESSURE_PLATE = registerBlock("lime_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_LIGHT_GREEN).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> LIME_WOOD_BUTTON = registerBlock("lime_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> MAGENTA_WOOD_PRESSURE_PLATE = registerBlock("magenta_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_MAGENTA).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> MAGENTA_WOOD_BUTTON = registerBlock("magenta_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> ORANGE_WOOD_PRESSURE_PLATE = registerBlock("orange_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_ORANGE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> ORANGE_WOOD_BUTTON = registerBlock("orange_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> PINK_WOOD_PRESSURE_PLATE = registerBlock("pink_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_PINK).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> PINK_WOOD_BUTTON = registerBlock("pink_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> PURPLE_WOOD_PRESSURE_PLATE = registerBlock("purple_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_PURPLE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> PURPLE_WOOD_BUTTON = registerBlock("purple_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> RED_WOOD_PRESSURE_PLATE = registerBlock("red_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_RED).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> RED_WOOD_BUTTON = registerBlock("red_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> WHITE_WOOD_PRESSURE_PLATE = registerBlock("white_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_LIGHT_GRAY).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> WHITE_WOOD_BUTTON = registerBlock("white_wood_button",
+            properties -> new ButtonBlock(BlockSetType.OAK, 30,
+                    properties.strength(0.5f, 0.5f).noCollision()));
+    public static final DeferredBlock<Block> YELLOW_WOOD_PRESSURE_PLATE = registerBlock("yellow_wood_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.OAK,
+                    properties.mapColor(MapColor.COLOR_YELLOW).forceSolidOn().instrument(NoteBlockInstrument.BASS)
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+    public static final DeferredBlock<Block> YELLOW_WOOD_BUTTON = registerBlock("yellow_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
                     properties.strength(0.5f, 0.5f).noCollision()));
 

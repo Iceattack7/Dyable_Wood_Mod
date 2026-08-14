@@ -165,11 +165,21 @@ public class ModRecipeProvider extends RecipeProvider {
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_WOOD_SLAB, ModBlocks.BLACK_PLANKS);
 
+        buttonBuilder(ModBlocks.BLACK_WOOD_BUTTON, Ingredient.of(ModBlocks.BLACK_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.BLACK_WOOD_PRESSURE_PLATE, ModBlocks.BLACK_PLANKS);
+
         stairBuilder(ModBlocks.BROWN_WOOD_STAIRS, Ingredient.of(ModBlocks.BROWN_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_WOOD_SLAB, ModBlocks.BROWN_PLANKS);
+
+        buttonBuilder(ModBlocks.BROWN_WOOD_BUTTON, Ingredient.of(ModBlocks.BROWN_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.BROWN_WOOD_PRESSURE_PLATE, ModBlocks.BROWN_PLANKS);
 
         stairBuilder(ModBlocks.CYAN_WOOD_STAIRS, Ingredient.of(ModBlocks.CYAN_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
@@ -177,11 +187,21 @@ public class ModRecipeProvider extends RecipeProvider {
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_WOOD_SLAB, ModBlocks.CYAN_PLANKS);
 
+        buttonBuilder(ModBlocks.CYAN_WOOD_BUTTON, Ingredient.of(ModBlocks.CYAN_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.CYAN_WOOD_PRESSURE_PLATE, ModBlocks.CYAN_PLANKS);
+
         stairBuilder(ModBlocks.GRAY_WOOD_STAIRS, Ingredient.of(ModBlocks.GRAY_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_WOOD_SLAB, ModBlocks.GRAY_PLANKS);
+
+        buttonBuilder(ModBlocks.GRAY_WOOD_BUTTON, Ingredient.of(ModBlocks.GRAY_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.GRAY_WOOD_PRESSURE_PLATE, ModBlocks.GRAY_PLANKS);
 
         stairBuilder(ModBlocks.GREEN_WOOD_STAIRS, Ingredient.of(ModBlocks.GREEN_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
@@ -189,11 +209,21 @@ public class ModRecipeProvider extends RecipeProvider {
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_WOOD_SLAB, ModBlocks.GREEN_PLANKS);
 
+        buttonBuilder(ModBlocks.GREEN_WOOD_BUTTON, Ingredient.of(ModBlocks.GREEN_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.GREEN_WOOD_PRESSURE_PLATE, ModBlocks.GREEN_PLANKS);
+
         stairBuilder(ModBlocks.LIGHT_BLUE_WOOD_STAIRS, Ingredient.of(ModBlocks.LIGHT_BLUE_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_WOOD_SLAB, ModBlocks.LIGHT_BLUE_PLANKS);
+
+        buttonBuilder(ModBlocks.LIGHT_BLUE_WOOD_BUTTON, Ingredient.of(ModBlocks.LIGHT_BLUE_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.LIGHT_BLUE_WOOD_PRESSURE_PLATE, ModBlocks.LIGHT_BLUE_PLANKS);
 
         stairBuilder(ModBlocks.LIGHT_GRAY_WOOD_STAIRS, Ingredient.of(ModBlocks.LIGHT_GRAY_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
@@ -201,11 +231,21 @@ public class ModRecipeProvider extends RecipeProvider {
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_WOOD_SLAB, ModBlocks.LIGHT_GRAY_PLANKS);
 
+        buttonBuilder(ModBlocks.LIGHT_GRAY_WOOD_BUTTON, Ingredient.of(ModBlocks.LIGHT_GRAY_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.LIGHT_GRAY_WOOD_PRESSURE_PLATE, ModBlocks.LIGHT_GRAY_PLANKS);
+
         stairBuilder(ModBlocks.LIGHT_PURPLE_WOOD_STAIRS, Ingredient.of(ModBlocks.LIGHT_PURPLE_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_PURPLE_WOOD_SLAB, ModBlocks.LIGHT_PURPLE_PLANKS);
+
+        buttonBuilder(ModBlocks.LIGHT_PURPLE_WOOD_BUTTON, Ingredient.of(ModBlocks.LIGHT_PURPLE_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.LIGHT_PURPLE_WOOD_PRESSURE_PLATE, ModBlocks.LIGHT_PURPLE_PLANKS);
 
         stairBuilder(ModBlocks.LIME_WOOD_STAIRS, Ingredient.of(ModBlocks.LIME_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
@@ -213,11 +253,21 @@ public class ModRecipeProvider extends RecipeProvider {
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_WOOD_SLAB, ModBlocks.LIME_PLANKS);
 
+        buttonBuilder(ModBlocks.LIME_WOOD_BUTTON, Ingredient.of(ModBlocks.LIME_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.LIME_WOOD_PRESSURE_PLATE, ModBlocks.LIME_PLANKS);
+
         stairBuilder(ModBlocks.MAGENTA_WOOD_STAIRS, Ingredient.of(ModBlocks.MAGENTA_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_WOOD_SLAB, ModBlocks.MAGENTA_PLANKS);
+
+        buttonBuilder(ModBlocks.MAGENTA_WOOD_BUTTON, Ingredient.of(ModBlocks.MAGENTA_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.MAGENTA_WOOD_PRESSURE_PLATE, ModBlocks.MAGENTA_PLANKS);
 
         stairBuilder(ModBlocks.ORANGE_WOOD_STAIRS, Ingredient.of(ModBlocks.ORANGE_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
@@ -225,11 +275,21 @@ public class ModRecipeProvider extends RecipeProvider {
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_WOOD_SLAB, ModBlocks.ORANGE_PLANKS);
 
+        buttonBuilder(ModBlocks.ORANGE_WOOD_BUTTON, Ingredient.of(ModBlocks.ORANGE_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.ORANGE_WOOD_PRESSURE_PLATE, ModBlocks.ORANGE_PLANKS);
+
         stairBuilder(ModBlocks.PINK_WOOD_STAIRS, Ingredient.of(ModBlocks.PINK_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_WOOD_SLAB, ModBlocks.PINK_PLANKS);
+
+        buttonBuilder(ModBlocks.PINK_WOOD_BUTTON, Ingredient.of(ModBlocks.PINK_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.PINK_WOOD_PRESSURE_PLATE, ModBlocks.PINK_PLANKS);
 
         stairBuilder(ModBlocks.PURPLE_WOOD_STAIRS, Ingredient.of(ModBlocks.PURPLE_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
@@ -237,11 +297,21 @@ public class ModRecipeProvider extends RecipeProvider {
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_WOOD_SLAB, ModBlocks.PURPLE_PLANKS);
 
+        buttonBuilder(ModBlocks.PURPLE_WOOD_BUTTON, Ingredient.of(ModBlocks.PURPLE_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.PURPLE_WOOD_PRESSURE_PLATE, ModBlocks.PURPLE_PLANKS);
+
         stairBuilder(ModBlocks.RED_WOOD_STAIRS, Ingredient.of(ModBlocks.RED_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_WOOD_SLAB, ModBlocks.RED_PLANKS);
+
+        buttonBuilder(ModBlocks.RED_WOOD_BUTTON, Ingredient.of(ModBlocks.RED_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.RED_WOOD_PRESSURE_PLATE, ModBlocks.RED_PLANKS);
 
         stairBuilder(ModBlocks.WHITE_WOOD_STAIRS, Ingredient.of(ModBlocks.WHITE_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
@@ -249,11 +319,21 @@ public class ModRecipeProvider extends RecipeProvider {
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_WOOD_SLAB, ModBlocks.WHITE_PLANKS);
 
+        buttonBuilder(ModBlocks.WHITE_WOOD_BUTTON, Ingredient.of(ModBlocks.WHITE_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.WHITE_WOOD_PRESSURE_PLATE, ModBlocks.WHITE_PLANKS);
+
         stairBuilder(ModBlocks.YELLOW_WOOD_STAIRS, Ingredient.of(ModBlocks.YELLOW_PLANKS))
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_WOOD_SLAB, ModBlocks.YELLOW_PLANKS);
+
+        buttonBuilder(ModBlocks.YELLOW_WOOD_BUTTON, Ingredient.of(ModBlocks.YELLOW_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+        pressurePlate(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE, ModBlocks.YELLOW_PLANKS);
 
     }
 }

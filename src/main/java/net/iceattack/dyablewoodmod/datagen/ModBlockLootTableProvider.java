@@ -73,6 +73,38 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         dropSelf(ModBlocks.BLUE_WOOD_PRESSURE_PLATE.get());
         dropSelf(ModBlocks.BLUE_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.BLACK_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.BLACK_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.BROWN_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.BROWN_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.CYAN_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.CYAN_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.GRAY_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.GRAY_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.GREEN_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.GREEN_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.LIGHT_BLUE_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.LIGHT_BLUE_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.LIGHT_GRAY_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.LIGHT_GRAY_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.LIGHT_PURPLE_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.LIGHT_PURPLE_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.LIME_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.LIME_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.MAGENTA_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.MAGENTA_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.ORANGE_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.ORANGE_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.PINK_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.PINK_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.PURPLE_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.PURPLE_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.RED_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.RED_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.WHITE_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.WHITE_WOOD_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.YELLOW_WOOD_BUTTON.get());
+        dropSelf(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE.get());
 
 
     }
