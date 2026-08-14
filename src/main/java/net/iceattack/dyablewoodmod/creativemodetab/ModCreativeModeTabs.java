@@ -117,6 +117,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WHITE_WOOD_PRESSURE_PLATE);
                         output.accept(ModBlocks.YELLOW_WOOD_BUTTON);
                         output.accept(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE);
+                        output.accept(ModBlocks.BLUE_WOOD_FENCE);
+                        output.accept(ModBlocks.BLUE_WOOD_FENCE_GATE);
 
 
 

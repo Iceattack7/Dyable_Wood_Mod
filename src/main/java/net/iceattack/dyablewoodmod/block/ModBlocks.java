@@ -9,6 +9,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
@@ -312,6 +313,11 @@ public class ModBlocks {
     public static final DeferredBlock<Block> YELLOW_WOOD_BUTTON = registerBlock("yellow_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
                     properties.strength(0.5f, 0.5f).noCollision()));
+
+    public static final DeferredBlock<Block> BLUE_WOOD_FENCE = registerBlock("blue_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> BLUE_WOOD_FENCE_GATE = registerBlock("blue_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
 
     public static ResourceKey<Block> getRK(Block block) {
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();

@@ -106,6 +106,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.YELLOW_WOOD_BUTTON.get());
         dropSelf(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE.get());
 
+        dropSelf(ModBlocks.BLUE_WOOD_FENCE.get());
+        dropSelf(ModBlocks.BLUE_WOOD_FENCE_GATE.get());
+
 
     }
 

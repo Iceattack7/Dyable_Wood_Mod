@@ -40,7 +40,9 @@ public class ModModelProvider extends ModelProvider {
                 .stairs(ModBlocks.BLUE_WOOD_STAIRS.get())
                 .slab(ModBlocks.BLUE_WOOD_SLAB.get())
                 .button(ModBlocks.BLUE_WOOD_BUTTON.get())
-                .pressurePlate(ModBlocks.BLUE_WOOD_PRESSURE_PLATE.get());
+                .pressurePlate(ModBlocks.BLUE_WOOD_PRESSURE_PLATE.get())
+                .fence(ModBlocks.BLUE_WOOD_FENCE.get())
+                .fenceGate(ModBlocks.BLUE_WOOD_FENCE_GATE.get());
 
         blockModels.family(ModBlocks.BLACK_PLANKS.get())
                 .stairs(ModBlocks.BLACK_WOOD_STAIRS.get())
