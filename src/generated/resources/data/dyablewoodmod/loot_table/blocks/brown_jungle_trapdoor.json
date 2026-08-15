@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dyablewoodmod:brown_jungle_trapdoor"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dyablewoodmod:blocks/brown_jungle_trapdoor"
+}
