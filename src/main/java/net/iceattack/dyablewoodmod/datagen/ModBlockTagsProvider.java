@@ -103,7 +103,39 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_BUTTON.get()))
                 .add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE.get()))
                 .add(ModBlocks.getRK(ModBlocks.BLUE_WOOD_FENCE.get()))
-                .add(ModBlocks.getRK(ModBlocks.BLUE_WOOD_FENCE_GATE.get()));
+                .add(ModBlocks.getRK(ModBlocks.BLUE_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.BLACK_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.BLACK_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.BROWN_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.BROWN_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.CYAN_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.GRAY_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.GRAY_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.GREEN_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.GREEN_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.LIGHT_BLUE_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.LIGHT_BLUE_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.LIGHT_GRAY_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.LIGHT_GRAY_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.LIGHT_PURPLE_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.LIGHT_PURPLE_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.LIME_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.LIME_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.MAGENTA_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.ORANGE_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.ORANGE_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.PINK_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.PINK_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.PURPLE_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.PURPLE_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.RED_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.RED_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_FENCE_GATE.get()))
+                .add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_FENCE.get()))
+                .add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_FENCE_GATE.get()));
 
         tag(BlockTags.STAIRS)
                 .add(ModBlocks.getRK(ModBlocks.BLUE_WOOD_STAIRS.get()));
@@ -211,6 +243,38 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
 
         tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.BLUE_WOOD_FENCE.get()));
         tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.BLUE_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.BLACK_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.BLACK_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.BROWN_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.BROWN_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.CYAN_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.CYAN_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.GRAY_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.GRAY_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.GREEN_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.GREEN_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.LIGHT_BLUE_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.LIGHT_BLUE_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.LIGHT_GRAY_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.LIGHT_GRAY_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.LIGHT_PURPLE_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.LIGHT_PURPLE_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.LIME_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.LIME_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.MAGENTA_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.MAGENTA_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.ORANGE_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.ORANGE_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.PINK_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.PINK_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.PURPLE_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.PURPLE_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.RED_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.RED_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.WHITE_WOOD_FENCE_GATE.get()));
+        tag(BlockTags.WOODEN_FENCES).add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_FENCE.get()));
+        tag(BlockTags.FENCE_GATES).add(ModBlocks.getRK(ModBlocks.YELLOW_WOOD_FENCE_GATE.get()));
 
 
 

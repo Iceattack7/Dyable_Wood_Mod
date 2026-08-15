@@ -108,6 +108,38 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         dropSelf(ModBlocks.BLUE_WOOD_FENCE.get());
         dropSelf(ModBlocks.BLUE_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.BLACK_WOOD_FENCE.get());
+        dropSelf(ModBlocks.BLACK_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.BROWN_WOOD_FENCE.get());
+        dropSelf(ModBlocks.BROWN_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.CYAN_WOOD_FENCE.get());
+        dropSelf(ModBlocks.CYAN_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.GRAY_WOOD_FENCE.get());
+        dropSelf(ModBlocks.GRAY_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.GREEN_WOOD_FENCE.get());
+        dropSelf(ModBlocks.GREEN_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.LIGHT_BLUE_WOOD_FENCE.get());
+        dropSelf(ModBlocks.LIGHT_BLUE_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.LIGHT_GRAY_WOOD_FENCE.get());
+        dropSelf(ModBlocks.LIGHT_GRAY_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.LIGHT_PURPLE_WOOD_FENCE.get());
+        dropSelf(ModBlocks.LIGHT_PURPLE_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.LIME_WOOD_FENCE.get());
+        dropSelf(ModBlocks.LIME_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.MAGENTA_WOOD_FENCE.get());
+        dropSelf(ModBlocks.MAGENTA_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.ORANGE_WOOD_FENCE.get());
+        dropSelf(ModBlocks.ORANGE_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.PINK_WOOD_FENCE.get());
+        dropSelf(ModBlocks.PINK_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.PURPLE_WOOD_FENCE.get());
+        dropSelf(ModBlocks.PURPLE_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.RED_WOOD_FENCE.get());
+        dropSelf(ModBlocks.RED_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.WHITE_WOOD_FENCE.get());
+        dropSelf(ModBlocks.WHITE_WOOD_FENCE_GATE.get());
+        dropSelf(ModBlocks.YELLOW_WOOD_FENCE.get());
+        dropSelf(ModBlocks.YELLOW_WOOD_FENCE_GATE.get());
 
 
     }

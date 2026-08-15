@@ -1,5 +1,21 @@
 {
   "values": [
-    "dyablewoodmod:blue_wood_fence"
+    "dyablewoodmod:blue_wood_fence",
+    "dyablewoodmod:black_wood_fence",
+    "dyablewoodmod:brown_wood_fence",
+    "dyablewoodmod:cyan_wood_fence",
+    "dyablewoodmod:gray_wood_fence",
+    "dyablewoodmod:green_wood_fence",
+    "dyablewoodmod:light_blue_wood_fence",
+    "dyablewoodmod:light_gray_wood_fence",
+    "dyablewoodmod:light_purple_wood_fence",
+    "dyablewoodmod:lime_wood_fence",
+    "dyablewoodmod:magenta_wood_fence",
+    "dyablewoodmod:orange_wood_fence",
+    "dyablewoodmod:pink_wood_fence",
+    "dyablewoodmod:purple_wood_fence",
+    "dyablewoodmod:red_wood_fence",
+    "dyablewoodmod:white_wood_fence",
+    "dyablewoodmod:yellow_wood_fence"
   ]
 }

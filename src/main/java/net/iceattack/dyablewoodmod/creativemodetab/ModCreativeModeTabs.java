@@ -119,6 +119,38 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE);
                         output.accept(ModBlocks.BLUE_WOOD_FENCE);
                         output.accept(ModBlocks.BLUE_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.BLACK_WOOD_FENCE);
+                        output.accept(ModBlocks.BLACK_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.BROWN_WOOD_FENCE);
+                        output.accept(ModBlocks.BROWN_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.CYAN_WOOD_FENCE);
+                        output.accept(ModBlocks.CYAN_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.GRAY_WOOD_FENCE);
+                        output.accept(ModBlocks.GRAY_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.GREEN_WOOD_FENCE);
+                        output.accept(ModBlocks.GREEN_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.LIGHT_BLUE_WOOD_FENCE);
+                        output.accept(ModBlocks.LIGHT_BLUE_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.LIGHT_GRAY_WOOD_FENCE);
+                        output.accept(ModBlocks.LIGHT_GRAY_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.LIGHT_PURPLE_WOOD_FENCE);
+                        output.accept(ModBlocks.LIGHT_PURPLE_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.LIME_WOOD_FENCE);
+                        output.accept(ModBlocks.LIME_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.MAGENTA_WOOD_FENCE);
+                        output.accept(ModBlocks.MAGENTA_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.ORANGE_WOOD_FENCE);
+                        output.accept(ModBlocks.ORANGE_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.PINK_WOOD_FENCE);
+                        output.accept(ModBlocks.PINK_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.PURPLE_WOOD_FENCE);
+                        output.accept(ModBlocks.PURPLE_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.RED_WOOD_FENCE);
+                        output.accept(ModBlocks.RED_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.WHITE_WOOD_FENCE);
+                        output.accept(ModBlocks.WHITE_WOOD_FENCE_GATE);
+                        output.accept(ModBlocks.YELLOW_WOOD_FENCE);
+                        output.accept(ModBlocks.YELLOW_WOOD_FENCE_GATE);
 
 
 

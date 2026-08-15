@@ -318,6 +318,70 @@ public class ModBlocks {
             properties -> new FenceBlock(properties.strength(2f, 3f)));
     public static final DeferredBlock<Block> BLUE_WOOD_FENCE_GATE = registerBlock("blue_wood_fence_gate",
             properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> BLACK_WOOD_FENCE = registerBlock("black_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> BLACK_WOOD_FENCE_GATE = registerBlock("black_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> BROWN_WOOD_FENCE = registerBlock("brown_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> BROWN_WOOD_FENCE_GATE = registerBlock("brown_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> CYAN_WOOD_FENCE = registerBlock("cyan_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> CYAN_WOOD_FENCE_GATE = registerBlock("cyan_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> GRAY_WOOD_FENCE = registerBlock("gray_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> GRAY_WOOD_FENCE_GATE = registerBlock("gray_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> GREEN_WOOD_FENCE = registerBlock("green_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> GREEN_WOOD_FENCE_GATE = registerBlock("green_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> LIGHT_BLUE_WOOD_FENCE = registerBlock("light_blue_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> LIGHT_BLUE_WOOD_FENCE_GATE = registerBlock("light_blue_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> LIGHT_GRAY_WOOD_FENCE = registerBlock("light_gray_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> LIGHT_GRAY_WOOD_FENCE_GATE = registerBlock("light_gray_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_WOOD_FENCE = registerBlock("light_purple_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_WOOD_FENCE_GATE = registerBlock("light_purple_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> LIME_WOOD_FENCE = registerBlock("lime_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> LIME_WOOD_FENCE_GATE = registerBlock("lime_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> MAGENTA_WOOD_FENCE = registerBlock("magenta_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> MAGENTA_WOOD_FENCE_GATE = registerBlock("magenta_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> ORANGE_WOOD_FENCE = registerBlock("orange_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> ORANGE_WOOD_FENCE_GATE = registerBlock("orange_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> PINK_WOOD_FENCE = registerBlock("pink_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> PINK_WOOD_FENCE_GATE = registerBlock("pink_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> PURPLE_WOOD_FENCE = registerBlock("purple_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> PURPLE_WOOD_FENCE_GATE = registerBlock("purple_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> RED_WOOD_FENCE = registerBlock("red_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> RED_WOOD_FENCE_GATE = registerBlock("red_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> WHITE_WOOD_FENCE = registerBlock("white_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> WHITE_WOOD_FENCE_GATE = registerBlock("white_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> YELLOW_WOOD_FENCE = registerBlock("yellow_wood_fence",
+            properties -> new FenceBlock(properties.strength(2f, 3f)));
+    public static final DeferredBlock<Block> YELLOW_WOOD_FENCE_GATE = registerBlock("yellow_wood_fence_gate",
+            properties -> new FenceGateBlock(WoodType.OAK, properties.strength(2f, 3f)));
 
     public static ResourceKey<Block> getRK(Block block) {
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();
