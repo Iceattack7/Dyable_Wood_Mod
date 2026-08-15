@@ -124,9 +124,23 @@
   "block.dyablewoodmod.yellow_wood_fence": "Yellow Wood Fence",
   "block.dyablewoodmod.yellow_wood_fence_gate": "Yellow Wood Fence Gate",
 
+  "block.dyablewoodmod.blue_acacia_door": "Blue Acacia Door",
+  "block.dyablewoodmod.blue_acacia_trapdoor": "Blue Acacia Trapdoor",
+  "block.dyablewoodmod.blue_birch_door": "Blue Birch Door",
+  "block.dyablewoodmod.blue_birch_trapdoor": "Blue Birch Trapdoor",
+  "block.dyablewoodmod.blue_dark_oak_door": "Blue Dark Oak Door",
+  "block.dyablewoodmod.blue_dark_oak_trapdoor": "Blue Dark Oak Trapdoor",
+  "block.dyablewoodmod.blue_jungle_door": "Blue Jungle Door",
+  "block.dyablewoodmod.blue_jungle_trapdoor": "Blue Jungle Trapdoor",
+  "block.dyablewoodmod.blue_oak_door": "Blue Oak Door",
+  "block.dyablewoodmod.blue_oak_trapdoor": "Blue Oak Trapdoor",
+  "block.dyablewoodmod.blue_spruce_door": "Blue Spruce Door",
+  "block.dyablewoodmod.blue_spruce_trapdoor": "Blue Spruce Trapdoor",
+
 
   "creativetab.dyablewoodmod.dye_items": "Dye Items",
-  "creativetab.dyablewoodmod.dyable_blocks": "Dyable Blocks"
+  "creativetab.dyablewoodmod.dyable_blocks": "Dyable Blocks",
+  "creativetab.dyablewoodmod.dyable_doors": "Dyable Doors"
 
 
 }

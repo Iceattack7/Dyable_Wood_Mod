@@ -44,6 +44,19 @@ public class ModModelProvider extends ModelProvider {
                 .fence(ModBlocks.BLUE_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.BLUE_WOOD_FENCE_GATE.get());
 
+        blockModels.createDoor(ModBlocks.BLUE_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.BLUE_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.BLUE_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.BLUE_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.BLUE_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.BLUE_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.BLUE_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.BLUE_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.BLUE_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.BLUE_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.BLUE_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.BLUE_SPRUCE_TRAPDOOR.get());
+
         blockModels.family(ModBlocks.BLACK_PLANKS.get())
                 .stairs(ModBlocks.BLACK_WOOD_STAIRS.get())
                 .slab(ModBlocks.BLACK_WOOD_SLAB.get())
