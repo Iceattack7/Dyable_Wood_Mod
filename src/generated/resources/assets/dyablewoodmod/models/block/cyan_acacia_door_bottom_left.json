@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "dyablewoodmod:block/cyan_acacia_door_bottom",
+    "top": "dyablewoodmod:block/cyan_acacia_door_top"
+  }
+}

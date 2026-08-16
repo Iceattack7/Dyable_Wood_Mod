@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "#c:dyes/black",
+    "#c:dyes/brown",
     "minecraft:jungle_door"
   ],
   "result": {

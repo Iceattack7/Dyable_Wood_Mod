@@ -351,73 +351,73 @@ public class ModRecipeProvider extends RecipeProvider {
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_ACACIA_DOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.ACACIA_DOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_ACACIA_TRAPDOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.ACACIA_TRAPDOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_BIRCH_DOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.BIRCH_DOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_BIRCH_TRAPDOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.BIRCH_TRAPDOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_DARK_OAK_DOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.DARK_OAK_DOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_DARK_OAK_TRAPDOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.DARK_OAK_TRAPDOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_JUNGLE_DOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.JUNGLE_DOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_JUNGLE_TRAPDOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.JUNGLE_TRAPDOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_OAK_DOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.OAK_DOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_OAK_TRAPDOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.OAK_TRAPDOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_SPRUCE_DOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.SPRUCE_DOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 
         shapeless(RecipeCategory.MISC, ModBlocks.BROWN_SPRUCE_TRAPDOOR, 1)
-                .requires(Tags.Items.DYES_BLACK)
+                .requires(Tags.Items.DYES_BROWN)
                 .requires(Blocks.SPRUCE_TRAPDOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
@@ -438,6 +438,78 @@ public class ModRecipeProvider extends RecipeProvider {
                 .save(output);
 
         fenceGateBuilder(ModBlocks.CYAN_WOOD_FENCE_GATE, Ingredient.of(ModBlocks.CYAN_PLANKS))
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_ACACIA_DOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.ACACIA_DOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_ACACIA_TRAPDOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.ACACIA_TRAPDOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_BIRCH_DOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.BIRCH_DOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_BIRCH_TRAPDOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.BIRCH_TRAPDOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_DARK_OAK_DOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.DARK_OAK_DOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_DARK_OAK_TRAPDOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.DARK_OAK_TRAPDOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_JUNGLE_DOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.JUNGLE_DOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_JUNGLE_TRAPDOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.JUNGLE_TRAPDOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_OAK_DOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.OAK_DOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_OAK_TRAPDOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.OAK_TRAPDOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_SPRUCE_DOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.SPRUCE_DOOR)
+                .unlockedBy("has_planks", has(ItemTags.PLANKS))
+                .save(output);
+
+        shapeless(RecipeCategory.MISC, ModBlocks.CYAN_SPRUCE_TRAPDOOR, 1)
+                .requires(Tags.Items.DYES_CYAN)
+                .requires(Blocks.SPRUCE_TRAPDOOR)
                 .unlockedBy("has_planks", has(ItemTags.PLANKS))
                 .save(output);
 

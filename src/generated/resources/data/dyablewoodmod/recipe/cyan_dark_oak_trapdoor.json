@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dyes/cyan",
+    "minecraft:dark_oak_trapdoor"
+  ],
+  "result": {
+    "id": "dyablewoodmod:cyan_dark_oak_trapdoor"
+  }
+}
