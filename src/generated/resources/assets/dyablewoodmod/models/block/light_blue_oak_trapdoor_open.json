@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_trapdoor_open",
+  "textures": {
+    "texture": "dyablewoodmod:block/light_blue_oak_trapdoor"
+  }
+}

@@ -155,7 +155,7 @@ public class ModCreativeModeTabs {
                     }).build());
 
     public static final Supplier<CreativeModeTab> DYABLE_DOOR_TAB = CREATIVE_MODE_TABS.register("dyable_doors",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BLUE_ACACIA_DOOR.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.LIGHT_BLUE_OAK_DOOR.get()))
                     .title(Component.translatable("creativetab.dyablewoodmod.dyable_doors"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BLUE_ACACIA_DOOR);
@@ -230,6 +230,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GREEN_OAK_TRAPDOOR);
                         output.accept(ModBlocks.GREEN_SPRUCE_DOOR);
                         output.accept(ModBlocks.GREEN_SPRUCE_TRAPDOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_ACACIA_DOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_ACACIA_TRAPDOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_BIRCH_DOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_BIRCH_TRAPDOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_DARK_OAK_DOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_DARK_OAK_TRAPDOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_JUNGLE_DOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_JUNGLE_TRAPDOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_OAK_DOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_OAK_TRAPDOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_SPRUCE_DOOR);
+                        output.accept(ModBlocks.LIGHT_BLUE_SPRUCE_TRAPDOOR);
 
 
                     }).build());
