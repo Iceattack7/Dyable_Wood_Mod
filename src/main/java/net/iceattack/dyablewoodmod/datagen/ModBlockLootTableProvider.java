@@ -189,6 +189,18 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.CYAN_OAK_TRAPDOOR.get());
         add(ModBlocks.CYAN_SPRUCE_DOOR.get(), this::createDoorTable);
         dropSelf(ModBlocks.CYAN_SPRUCE_TRAPDOOR.get());
+        add(ModBlocks.GRAY_ACACIA_DOOR.get(), this::createDoorTable);
+        dropSelf(ModBlocks.GRAY_ACACIA_TRAPDOOR.get());
+        add(ModBlocks.GRAY_BIRCH_DOOR.get(), this::createDoorTable);
+        dropSelf(ModBlocks.GRAY_BIRCH_TRAPDOOR.get());
+        add(ModBlocks.GRAY_DARK_OAK_DOOR.get(), this::createDoorTable);
+        dropSelf(ModBlocks.GRAY_DARK_OAK_TRAPDOOR.get());
+        add(ModBlocks.GRAY_JUNGLE_DOOR.get(), this::createDoorTable);
+        dropSelf(ModBlocks.GRAY_JUNGLE_TRAPDOOR.get());
+        add(ModBlocks.GRAY_OAK_DOOR.get(), this::createDoorTable);
+        dropSelf(ModBlocks.GRAY_OAK_TRAPDOOR.get());
+        add(ModBlocks.GRAY_SPRUCE_DOOR.get(), this::createDoorTable);
+        dropSelf(ModBlocks.GRAY_SPRUCE_TRAPDOOR.get());
 
 
     }

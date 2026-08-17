@@ -22,6 +22,12 @@
     "dyablewoodmod:cyan_birch_trapdoor",
     "dyablewoodmod:cyan_dark_oak_trapdoor",
     "dyablewoodmod:cyan_jungle_trapdoor",
-    "dyablewoodmod:cyan_oak_trapdoor"
+    "dyablewoodmod:cyan_oak_trapdoor",
+    "dyablewoodmod:gray_acacia_trapdoor",
+    "dyablewoodmod:gray_birch_trapdoor",
+    "dyablewoodmod:gray_dark_oak_trapdoor",
+    "dyablewoodmod:gray_jungle_trapdoor",
+    "dyablewoodmod:gray_oak_trapdoor",
+    "dyablewoodmod:gray_spruce_trapdoor"
   ]
 }

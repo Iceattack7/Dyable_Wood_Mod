@@ -166,6 +166,18 @@
     "dyablewoodmod:cyan_oak_door",
     "dyablewoodmod:cyan_oak_trapdoor",
     "dyablewoodmod:cyan_spruce_door",
-    "dyablewoodmod:cyan_spruce_trapdoor"
+    "dyablewoodmod:cyan_spruce_trapdoor",
+    "dyablewoodmod:gray_acacia_door",
+    "dyablewoodmod:gray_acacia_trapdoor",
+    "dyablewoodmod:gray_birch_door",
+    "dyablewoodmod:gray_birch_trapdoor",
+    "dyablewoodmod:gray_dark_oak_door",
+    "dyablewoodmod:gray_dark_oak_trapdoor",
+    "dyablewoodmod:gray_jungle_door",
+    "dyablewoodmod:gray_jungle_trapdoor",
+    "dyablewoodmod:gray_oak_door",
+    "dyablewoodmod:gray_oak_trapdoor",
+    "dyablewoodmod:gray_spruce_door",
+    "dyablewoodmod:gray_spruce_trapdoor"
   ]
 }
