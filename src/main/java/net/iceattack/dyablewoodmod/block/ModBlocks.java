@@ -644,6 +644,376 @@ public class ModBlocks {
             properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
                     .noOcclusion()));
 
+    public static final DeferredBlock<Block> LIGHT_GRAY_ACACIA_DOOR = registerBlock("light_gray_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_ACACIA_TRAPDOOR = registerBlock("light_gray_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_BIRCH_DOOR = registerBlock("light_gray_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_BIRCH_TRAPDOOR = registerBlock("light_gray_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_DARK_OAK_DOOR = registerBlock("light_gray_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_DARK_OAK_TRAPDOOR = registerBlock("light_gray_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_JUNGLE_DOOR = registerBlock("light_gray_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_JUNGLE_TRAPDOOR = registerBlock("light_gray_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_OAK_DOOR = registerBlock("light_gray_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_OAK_TRAPDOOR = registerBlock("light_gray_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_SPRUCE_DOOR = registerBlock("light_gray_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_GRAY_SPRUCE_TRAPDOOR = registerBlock("light_gray_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final DeferredBlock<Block> LIGHT_PURPLE_ACACIA_DOOR = registerBlock("light_purple_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_ACACIA_TRAPDOOR = registerBlock("light_purple_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_BIRCH_DOOR = registerBlock("light_purple_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_BIRCH_TRAPDOOR = registerBlock("light_purple_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_DARK_OAK_DOOR = registerBlock("light_purple_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_DARK_OAK_TRAPDOOR = registerBlock("light_purple_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_JUNGLE_DOOR = registerBlock("light_purple_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_JUNGLE_TRAPDOOR = registerBlock("light_purple_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_OAK_DOOR = registerBlock("light_purple_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_OAK_TRAPDOOR = registerBlock("light_purple_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_SPRUCE_DOOR = registerBlock("light_purple_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIGHT_PURPLE_SPRUCE_TRAPDOOR = registerBlock("light_purple_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final DeferredBlock<Block> LIME_ACACIA_DOOR = registerBlock("lime_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_ACACIA_TRAPDOOR = registerBlock("lime_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_BIRCH_DOOR = registerBlock("lime_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_BIRCH_TRAPDOOR = registerBlock("lime_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_DARK_OAK_DOOR = registerBlock("lime_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_DARK_OAK_TRAPDOOR = registerBlock("lime_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_JUNGLE_DOOR = registerBlock("lime_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_JUNGLE_TRAPDOOR = registerBlock("lime_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_OAK_DOOR = registerBlock("lime_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_OAK_TRAPDOOR = registerBlock("lime_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_SPRUCE_DOOR = registerBlock("lime_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> LIME_SPRUCE_TRAPDOOR = registerBlock("lime_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final DeferredBlock<Block> MAGENTA_ACACIA_DOOR = registerBlock("magenta_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_ACACIA_TRAPDOOR = registerBlock("magenta_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_BIRCH_DOOR = registerBlock("magenta_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_BIRCH_TRAPDOOR = registerBlock("magenta_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_DARK_OAK_DOOR = registerBlock("magenta_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_DARK_OAK_TRAPDOOR = registerBlock("magenta_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_JUNGLE_DOOR = registerBlock("magenta_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_JUNGLE_TRAPDOOR = registerBlock("magenta_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_OAK_DOOR = registerBlock("magenta_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_OAK_TRAPDOOR = registerBlock("magenta_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_SPRUCE_DOOR = registerBlock("magenta_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> MAGENTA_SPRUCE_TRAPDOOR = registerBlock("magenta_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final DeferredBlock<Block> ORANGE_ACACIA_DOOR = registerBlock("orange_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_ACACIA_TRAPDOOR = registerBlock("orange_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_BIRCH_DOOR = registerBlock("orange_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_BIRCH_TRAPDOOR = registerBlock("orange_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_DARK_OAK_DOOR = registerBlock("orange_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_DARK_OAK_TRAPDOOR = registerBlock("orange_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_JUNGLE_DOOR = registerBlock("orange_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_JUNGLE_TRAPDOOR = registerBlock("orange_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_OAK_DOOR = registerBlock("orange_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_OAK_TRAPDOOR = registerBlock("orange_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_SPRUCE_DOOR = registerBlock("orange_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> ORANGE_SPRUCE_TRAPDOOR = registerBlock("orange_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final DeferredBlock<Block> PINK_ACACIA_DOOR = registerBlock("pink_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_ACACIA_TRAPDOOR = registerBlock("pink_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_BIRCH_DOOR = registerBlock("pink_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_BIRCH_TRAPDOOR = registerBlock("pink_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_DARK_OAK_DOOR = registerBlock("pink_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_DARK_OAK_TRAPDOOR = registerBlock("pink_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_JUNGLE_DOOR = registerBlock("pink_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_JUNGLE_TRAPDOOR = registerBlock("pink_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_OAK_DOOR = registerBlock("pink_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_OAK_TRAPDOOR = registerBlock("pink_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_SPRUCE_DOOR = registerBlock("pink_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PINK_SPRUCE_TRAPDOOR = registerBlock("pink_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final DeferredBlock<Block> PURPLE_ACACIA_DOOR = registerBlock("purple_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_ACACIA_TRAPDOOR = registerBlock("purple_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_BIRCH_DOOR = registerBlock("purple_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_BIRCH_TRAPDOOR = registerBlock("purple_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_DARK_OAK_DOOR = registerBlock("purple_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_DARK_OAK_TRAPDOOR = registerBlock("purple_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_JUNGLE_DOOR = registerBlock("purple_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_JUNGLE_TRAPDOOR = registerBlock("purple_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_OAK_DOOR = registerBlock("purple_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_OAK_TRAPDOOR = registerBlock("purple_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_SPRUCE_DOOR = registerBlock("purple_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> PURPLE_SPRUCE_TRAPDOOR = registerBlock("purple_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final DeferredBlock<Block> RED_ACACIA_DOOR = registerBlock("red_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_ACACIA_TRAPDOOR = registerBlock("red_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_BIRCH_DOOR = registerBlock("red_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_BIRCH_TRAPDOOR = registerBlock("red_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_DARK_OAK_DOOR = registerBlock("red_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_DARK_OAK_TRAPDOOR = registerBlock("red_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_JUNGLE_DOOR = registerBlock("red_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_JUNGLE_TRAPDOOR = registerBlock("red_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_OAK_DOOR = registerBlock("red_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_OAK_TRAPDOOR = registerBlock("red_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_SPRUCE_DOOR = registerBlock("red_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> RED_SPRUCE_TRAPDOOR = registerBlock("red_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final DeferredBlock<Block> WHITE_ACACIA_DOOR = registerBlock("white_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_ACACIA_TRAPDOOR = registerBlock("white_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_BIRCH_DOOR = registerBlock("white_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_BIRCH_TRAPDOOR = registerBlock("white_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_DARK_OAK_DOOR = registerBlock("white_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_DARK_OAK_TRAPDOOR = registerBlock("white_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_JUNGLE_DOOR = registerBlock("white_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_JUNGLE_TRAPDOOR = registerBlock("white_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_OAK_DOOR = registerBlock("white_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_OAK_TRAPDOOR = registerBlock("white_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_SPRUCE_DOOR = registerBlock("white_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> WHITE_SPRUCE_TRAPDOOR = registerBlock("white_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
+    public static final DeferredBlock<Block> YELLOW_ACACIA_DOOR = registerBlock("yellow_acacia_door",
+            properties -> new DoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_ACACIA_TRAPDOOR = registerBlock("yellow_acacia_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.ACACIA, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_BIRCH_DOOR = registerBlock("yellow_birch_door",
+            properties -> new DoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_BIRCH_TRAPDOOR = registerBlock("yellow_birch_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.BIRCH, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_DARK_OAK_DOOR = registerBlock("yellow_dark_oak_door",
+            properties -> new DoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_DARK_OAK_TRAPDOOR = registerBlock("yellow_dark_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.DARK_OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_JUNGLE_DOOR = registerBlock("yellow_jungle_door",
+            properties -> new DoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_JUNGLE_TRAPDOOR = registerBlock("yellow_jungle_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.JUNGLE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_OAK_DOOR = registerBlock("yellow_oak_door",
+            properties -> new DoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_OAK_TRAPDOOR = registerBlock("yellow_oak_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.OAK, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_SPRUCE_DOOR = registerBlock("yellow_spruce_door",
+            properties -> new DoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+    public static final DeferredBlock<Block> YELLOW_SPRUCE_TRAPDOOR = registerBlock("yellow_spruce_trapdoor",
+            properties -> new TrapDoorBlock(BlockSetType.SPRUCE, properties.strength(2f, 3f)
+                    .noOcclusion()));
+
     public static ResourceKey<Block> getRK(Block block) {
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();
     }

@@ -191,6 +191,19 @@ public class ModModelProvider extends ModelProvider {
                 .fence(ModBlocks.LIGHT_GRAY_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.LIGHT_GRAY_WOOD_FENCE_GATE.get());
 
+        blockModels.createDoor(ModBlocks.LIGHT_GRAY_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIGHT_GRAY_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIGHT_GRAY_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIGHT_GRAY_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIGHT_GRAY_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.LIGHT_GRAY_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIGHT_GRAY_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIGHT_GRAY_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIGHT_GRAY_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.LIGHT_GRAY_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIGHT_GRAY_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIGHT_GRAY_SPRUCE_TRAPDOOR.get());
+
         blockModels.family(ModBlocks.LIGHT_PURPLE_PLANKS.get())
                 .stairs(ModBlocks.LIGHT_PURPLE_WOOD_STAIRS.get())
                 .slab(ModBlocks.LIGHT_PURPLE_WOOD_SLAB.get())
@@ -198,6 +211,19 @@ public class ModModelProvider extends ModelProvider {
                 .pressurePlate(ModBlocks.LIGHT_PURPLE_WOOD_PRESSURE_PLATE.get())
                 .fence(ModBlocks.LIGHT_PURPLE_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.LIGHT_PURPLE_WOOD_FENCE_GATE.get());
+
+        blockModels.createDoor(ModBlocks.LIGHT_PURPLE_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIGHT_PURPLE_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIGHT_PURPLE_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIGHT_PURPLE_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIGHT_PURPLE_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.LIGHT_PURPLE_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIGHT_PURPLE_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIGHT_PURPLE_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIGHT_PURPLE_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.LIGHT_PURPLE_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIGHT_PURPLE_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIGHT_PURPLE_SPRUCE_TRAPDOOR.get());
 
         blockModels.family(ModBlocks.LIME_PLANKS.get())
                 .stairs(ModBlocks.LIME_WOOD_STAIRS.get())
@@ -207,6 +233,19 @@ public class ModModelProvider extends ModelProvider {
                 .fence(ModBlocks.LIME_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.LIME_WOOD_FENCE_GATE.get());
 
+        blockModels.createDoor(ModBlocks.LIME_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIME_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIME_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIME_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIME_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.LIME_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIME_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIME_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIME_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.LIME_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.LIME_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.LIME_SPRUCE_TRAPDOOR.get());
+
         blockModels.family(ModBlocks.MAGENTA_PLANKS.get())
                 .stairs(ModBlocks.MAGENTA_WOOD_STAIRS.get())
                 .slab(ModBlocks.MAGENTA_WOOD_SLAB.get())
@@ -214,6 +253,19 @@ public class ModModelProvider extends ModelProvider {
                 .pressurePlate(ModBlocks.MAGENTA_WOOD_PRESSURE_PLATE.get())
                 .fence(ModBlocks.MAGENTA_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.MAGENTA_WOOD_FENCE_GATE.get());
+
+        blockModels.createDoor(ModBlocks.MAGENTA_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.MAGENTA_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.MAGENTA_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.MAGENTA_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.MAGENTA_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.MAGENTA_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.MAGENTA_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.MAGENTA_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.MAGENTA_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.MAGENTA_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.MAGENTA_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.MAGENTA_SPRUCE_TRAPDOOR.get());
 
         blockModels.family(ModBlocks.ORANGE_PLANKS.get())
                 .stairs(ModBlocks.ORANGE_WOOD_STAIRS.get())
@@ -223,6 +275,19 @@ public class ModModelProvider extends ModelProvider {
                 .fence(ModBlocks.ORANGE_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.ORANGE_WOOD_FENCE_GATE.get());
 
+        blockModels.createDoor(ModBlocks.ORANGE_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.ORANGE_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.ORANGE_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.ORANGE_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.ORANGE_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.ORANGE_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.ORANGE_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.ORANGE_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.ORANGE_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.ORANGE_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.ORANGE_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.ORANGE_SPRUCE_TRAPDOOR.get());
+
         blockModels.family(ModBlocks.PINK_PLANKS.get())
                 .stairs(ModBlocks.PINK_WOOD_STAIRS.get())
                 .slab(ModBlocks.PINK_WOOD_SLAB.get())
@@ -230,6 +295,19 @@ public class ModModelProvider extends ModelProvider {
                 .pressurePlate(ModBlocks.PINK_WOOD_PRESSURE_PLATE.get())
                 .fence(ModBlocks.PINK_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.PINK_WOOD_FENCE_GATE.get());
+
+        blockModels.createDoor(ModBlocks.PINK_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.PINK_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.PINK_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.PINK_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.PINK_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.PINK_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.PINK_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.PINK_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.PINK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.PINK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.PINK_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.PINK_SPRUCE_TRAPDOOR.get());
 
         blockModels.family(ModBlocks.PURPLE_PLANKS.get())
                 .stairs(ModBlocks.PURPLE_WOOD_STAIRS.get())
@@ -239,6 +317,19 @@ public class ModModelProvider extends ModelProvider {
                 .fence(ModBlocks.PURPLE_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.PURPLE_WOOD_FENCE_GATE.get());
 
+        blockModels.createDoor(ModBlocks.PURPLE_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.PURPLE_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.PURPLE_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.PURPLE_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.PURPLE_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.PURPLE_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.PURPLE_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.PURPLE_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.PURPLE_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.PURPLE_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.PURPLE_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.PURPLE_SPRUCE_TRAPDOOR.get());
+
         blockModels.family(ModBlocks.RED_PLANKS.get())
                 .stairs(ModBlocks.RED_WOOD_STAIRS.get())
                 .slab(ModBlocks.RED_WOOD_SLAB.get())
@@ -246,6 +337,19 @@ public class ModModelProvider extends ModelProvider {
                 .pressurePlate(ModBlocks.RED_WOOD_PRESSURE_PLATE.get())
                 .fence(ModBlocks.RED_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.RED_WOOD_FENCE_GATE.get());
+
+        blockModels.createDoor(ModBlocks.RED_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.RED_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.RED_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.RED_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.RED_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.RED_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.RED_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.RED_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.RED_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.RED_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.RED_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.RED_SPRUCE_TRAPDOOR.get());
 
         blockModels.family(ModBlocks.WHITE_PLANKS.get())
                 .stairs(ModBlocks.WHITE_WOOD_STAIRS.get())
@@ -255,6 +359,19 @@ public class ModModelProvider extends ModelProvider {
                 .fence(ModBlocks.WHITE_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.WHITE_WOOD_FENCE_GATE.get());
 
+        blockModels.createDoor(ModBlocks.WHITE_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.WHITE_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.WHITE_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.WHITE_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.WHITE_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.WHITE_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.WHITE_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.WHITE_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.WHITE_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.WHITE_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.WHITE_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.WHITE_SPRUCE_TRAPDOOR.get());
+
         blockModels.family(ModBlocks.YELLOW_PLANKS.get())
                 .stairs(ModBlocks.YELLOW_WOOD_STAIRS.get())
                 .slab(ModBlocks.YELLOW_WOOD_SLAB.get())
@@ -262,5 +379,18 @@ public class ModModelProvider extends ModelProvider {
                 .pressurePlate(ModBlocks.YELLOW_WOOD_PRESSURE_PLATE.get())
                 .fence(ModBlocks.YELLOW_WOOD_FENCE.get())
                 .fenceGate(ModBlocks.YELLOW_WOOD_FENCE_GATE.get());
+
+        blockModels.createDoor(ModBlocks.YELLOW_ACACIA_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.YELLOW_ACACIA_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.YELLOW_BIRCH_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.YELLOW_BIRCH_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.YELLOW_DARK_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.YELLOW_DARK_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.YELLOW_JUNGLE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.YELLOW_JUNGLE_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.YELLOW_OAK_DOOR.get());
+        blockModels.createTrapdoor(ModBlocks.YELLOW_OAK_TRAPDOOR.get());
+        blockModels.createDoor(ModBlocks.YELLOW_SPRUCE_DOOR.get());
+        blockModels.createOrientableTrapdoor(ModBlocks.YELLOW_SPRUCE_TRAPDOOR.get());
     }
 }
