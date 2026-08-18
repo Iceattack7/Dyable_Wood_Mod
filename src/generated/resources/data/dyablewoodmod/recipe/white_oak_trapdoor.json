@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dyes/white",
+    "minecraft:oak_trapdoor"
+  ],
+  "result": {
+    "id": "dyablewoodmod:white_oak_trapdoor"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dyes/red",
+    "minecraft:dark_oak_door"
+  ],
+  "result": {
+    "id": "dyablewoodmod:red_dark_oak_door"
+  }
+}
