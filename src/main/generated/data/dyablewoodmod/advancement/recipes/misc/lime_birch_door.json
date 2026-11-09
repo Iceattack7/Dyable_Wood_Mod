@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:lime_birch_door"
+        "recipes": "dyablewoodmod:lime_birch_door"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

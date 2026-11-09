@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:blue_wood_slab"
+        "recipes": "dyablewoodmod:blue_wood_slab"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

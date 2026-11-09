@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:red_planks"
+        "recipes": "dyablewoodmod:red_planks"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

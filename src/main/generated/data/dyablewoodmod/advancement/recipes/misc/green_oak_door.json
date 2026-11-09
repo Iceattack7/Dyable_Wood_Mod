@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:green_oak_door"
+        "recipes": "dyablewoodmod:green_oak_door"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

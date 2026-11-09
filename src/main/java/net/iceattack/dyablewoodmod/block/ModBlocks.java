@@ -181,7 +181,7 @@ public class ModBlocks {
     public static final Block BLUE_WOOD_PRESSURE_PLATE = registerBlock("blue_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_BLUE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block BLACK_WOOD_BUTTON = registerBlock("black_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -189,7 +189,7 @@ public class ModBlocks {
     public static final Block BLACK_WOOD_PRESSURE_PLATE = registerBlock("black_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_BLACK).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block BROWN_WOOD_BUTTON = registerBlock("brown_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -197,7 +197,7 @@ public class ModBlocks {
     public static final Block BROWN_WOOD_PRESSURE_PLATE = registerBlock("brown_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_BROWN).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block CYAN_WOOD_BUTTON = registerBlock("cyan_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -205,7 +205,7 @@ public class ModBlocks {
     public static final Block CYAN_WOOD_PRESSURE_PLATE = registerBlock("cyan_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_CYAN).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block GRAY_WOOD_BUTTON = registerBlock("gray_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -213,7 +213,7 @@ public class ModBlocks {
     public static final Block GRAY_WOOD_PRESSURE_PLATE = registerBlock("gray_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_GRAY).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block GREEN_WOOD_BUTTON = registerBlock("green_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -221,7 +221,7 @@ public class ModBlocks {
     public static final Block GREEN_WOOD_PRESSURE_PLATE = registerBlock("green_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_GREEN).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block LIGHT_BLUE_WOOD_BUTTON = registerBlock("light_blue_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -229,7 +229,7 @@ public class ModBlocks {
     public static final Block LIGHT_BLUE_WOOD_PRESSURE_PLATE = registerBlock("light_blue_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_LIGHT_BLUE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block LIGHT_GRAY_WOOD_BUTTON = registerBlock("light_gray_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -237,7 +237,7 @@ public class ModBlocks {
     public static final Block LIGHT_GRAY_WOOD_PRESSURE_PLATE = registerBlock("light_gray_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_LIGHT_GRAY).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block LIGHT_PURPLE_WOOD_BUTTON = registerBlock("light_purple_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -245,7 +245,7 @@ public class ModBlocks {
     public static final Block LIGHT_PURPLE_WOOD_PRESSURE_PLATE = registerBlock("light_purple_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_PURPLE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block LIME_WOOD_BUTTON = registerBlock("lime_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -253,7 +253,7 @@ public class ModBlocks {
     public static final Block LIME_WOOD_PRESSURE_PLATE = registerBlock("lime_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_LIGHT_GREEN).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block MAGENTA_WOOD_BUTTON = registerBlock("magenta_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -261,7 +261,7 @@ public class ModBlocks {
     public static final Block MAGENTA_WOOD_PRESSURE_PLATE = registerBlock("magenta_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_MAGENTA).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block ORANGE_WOOD_BUTTON = registerBlock("orange_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -269,7 +269,7 @@ public class ModBlocks {
     public static final Block ORANGE_WOOD_PRESSURE_PLATE = registerBlock("orange_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_ORANGE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block PINK_WOOD_BUTTON = registerBlock("pink_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -277,7 +277,7 @@ public class ModBlocks {
     public static final Block PINK_WOOD_PRESSURE_PLATE = registerBlock("pink_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_PINK).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block PURPLE_WOOD_BUTTON = registerBlock("purple_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -285,7 +285,7 @@ public class ModBlocks {
     public static final Block PURPLE_WOOD_PRESSURE_PLATE = registerBlock("purple_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_PURPLE).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block RED_WOOD_BUTTON = registerBlock("red_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -293,7 +293,7 @@ public class ModBlocks {
     public static final Block RED_WOOD_PRESSURE_PLATE = registerBlock("red_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_RED).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block WHITE_WOOD_BUTTON = registerBlock("white_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -301,7 +301,7 @@ public class ModBlocks {
     public static final Block WHITE_WOOD_PRESSURE_PLATE = registerBlock("white_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_LIGHT_GRAY).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block YELLOW_WOOD_BUTTON = registerBlock("yellow_wood_button",
             properties -> new ButtonBlock(BlockSetType.OAK, 30,
@@ -309,7 +309,7 @@ public class ModBlocks {
     public static final Block YELLOW_WOOD_PRESSURE_PLATE = registerBlock("yellow_wood_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.OAK,
                     properties.mapColor(MapColor.COLOR_YELLOW).forceSolidOn().instrument(NoteBlockInstrument.BASS)
-                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.DESTROY)));
+                            .noCollision().strength(0.5f, 0.5f).pushReaction(PushReaction.POPPED)));
 
     public static final Block BLUE_WOOD_FENCE = registerBlock("blue_wood_fence",
             properties -> new FenceBlock(properties.strength(2f, 3f)));

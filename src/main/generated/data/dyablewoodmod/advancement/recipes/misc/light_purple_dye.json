@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:light_purple_dye"
+        "recipes": "dyablewoodmod:light_purple_dye"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

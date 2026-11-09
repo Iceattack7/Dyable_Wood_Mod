@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:orange_jungle_door"
+        "recipes": "dyablewoodmod:orange_jungle_door"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:yellow_wood_stairs"
+        "recipes": "dyablewoodmod:yellow_wood_stairs"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

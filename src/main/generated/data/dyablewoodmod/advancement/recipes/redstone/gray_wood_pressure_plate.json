@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:gray_wood_pressure_plate"
+        "recipes": "dyablewoodmod:gray_wood_pressure_plate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

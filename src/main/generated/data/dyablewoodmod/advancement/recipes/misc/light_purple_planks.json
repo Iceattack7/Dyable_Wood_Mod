@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:light_purple_planks"
+        "recipes": "dyablewoodmod:light_purple_planks"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

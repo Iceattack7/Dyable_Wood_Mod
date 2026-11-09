@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:gray_wood_stairs"
+        "recipes": "dyablewoodmod:gray_wood_stairs"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

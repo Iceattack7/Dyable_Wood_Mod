@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:pink_wood_fence_gate"
+        "recipes": "dyablewoodmod:pink_wood_fence_gate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

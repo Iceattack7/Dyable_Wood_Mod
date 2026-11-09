@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:blue_wood_fence"
+        "recipes": "dyablewoodmod:blue_wood_fence"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

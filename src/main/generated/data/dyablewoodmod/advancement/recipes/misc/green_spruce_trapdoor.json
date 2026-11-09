@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:green_spruce_trapdoor"
+        "recipes": "dyablewoodmod:green_spruce_trapdoor"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

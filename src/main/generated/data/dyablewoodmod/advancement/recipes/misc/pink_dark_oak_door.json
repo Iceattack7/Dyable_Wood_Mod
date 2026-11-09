@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:pink_dark_oak_door"
+        "recipes": "dyablewoodmod:pink_dark_oak_door"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

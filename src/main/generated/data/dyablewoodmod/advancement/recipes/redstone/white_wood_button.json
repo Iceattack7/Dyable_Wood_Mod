@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:white_wood_button"
+        "recipes": "dyablewoodmod:white_wood_button"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

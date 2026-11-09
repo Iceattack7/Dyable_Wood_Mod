@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:light_gray_wood_button"
+        "recipes": "dyablewoodmod:light_gray_wood_button"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

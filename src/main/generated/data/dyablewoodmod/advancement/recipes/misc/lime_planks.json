@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:lime_planks"
+        "recipes": "dyablewoodmod:lime_planks"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

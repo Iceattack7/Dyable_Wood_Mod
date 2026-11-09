@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:cyan_wood_fence_gate"
+        "recipes": "dyablewoodmod:cyan_wood_fence_gate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

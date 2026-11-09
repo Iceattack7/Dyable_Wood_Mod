@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dyablewoodmod:yellow_wood_button"
+        "recipes": "dyablewoodmod:yellow_wood_button"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
